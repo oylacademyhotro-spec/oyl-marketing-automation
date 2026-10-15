@@ -19,14 +19,26 @@ export class FacebookPublisher {
   }
 
   /**
-   * Retrieves page credentials for 'A' or 'B'
+   * Retrieves page credentials for 'A', 'B', 'C', or 'D', or uses custom overrides
    */
-  getPageCredentials(pageKey = 'A') {
-    const isPageB = pageKey.toUpperCase() === 'B';
-    const pageConfig = isPageB ? config.pageB : config.pageA;
+  getPageCredentials(pageKey = 'A', customToken = null, customPageId = null) {
+    if (customToken && customPageId) {
+      return {
+        pageKey,
+        name: pageKey === 'C' ? 'Học Viện Own Your Life' : (pageKey === 'D' ? 'Trainer Nguyên Phụng' : `Page ${pageKey}`),
+        pageId: customPageId,
+        token: customToken
+      };
+    }
+
+    const key = pageKey.toUpperCase();
+    let pageConfig = config.pageA;
+    if (key === 'B') pageConfig = config.pageB;
+    if (key === 'C') pageConfig = { name: process.env.PAGE_C_NAME || 'Học Viện Own Your Life', id: process.env.PAGE_C_ID || '103484708439848', token: process.env.PAGE_C_TOKEN || '' };
+    if (key === 'D') pageConfig = { name: process.env.PAGE_D_NAME || 'Trainer Nguyên Phụng', id: process.env.PAGE_D_ID || '982336264968925', token: process.env.PAGE_D_TOKEN || '' };
 
     return {
-      pageKey: isPageB ? 'B' : 'A',
+      pageKey: key,
       name: pageConfig.name,
       pageId: pageConfig.id,
       token: pageConfig.token
@@ -87,9 +99,11 @@ export class FacebookPublisher {
     pageKey = 'A',
     imagePath,
     caption,
+    customToken = null,
+    customPageId = null,
     retries = 2
   }) {
-    const { pageId, token, name } = this.getPageCredentials(pageKey);
+    const { pageId, token, name } = this.getPageCredentials(pageKey, customToken, customPageId);
 
     if (!fs.existsSync(imagePath)) {
       throw new Error(`Image file does not exist: ${imagePath}`);
@@ -179,9 +193,11 @@ export class FacebookPublisher {
     videoPath,
     title,
     description,
+    customToken = null,
+    customPageId = null,
     retries = 2
   }) {
-    const { pageId, token, name } = this.getPageCredentials(pageKey);
+    const { pageId, token, name } = this.getPageCredentials(pageKey, customToken, customPageId);
 
     if (!fs.existsSync(videoPath)) {
       throw new Error(`Video file does not exist: ${videoPath}`);
