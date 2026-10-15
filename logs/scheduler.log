@@ -1,0 +1,21 @@
+======================================================================
+🤖 OYL MARKETING AUTOMATION ENGINE — SCHEDULER ACTIVE
+======================================================================
+📅 Current System Time : 12:29:59 15/10/2026
+⚡ Mode                : LIVE PRODUCTION
+🏢 Page A (Chính)      : Du học toàn cầu OYLG [ID: 553627547827807]
+🏢 Page B (Vệ Tinh)    : Nguyên Phụng [ID: 111979613513276]
+🎲 Random Jitter Max   : 10 minutes
+
+⏰ ACTIVE CRON TIMETABLE:
+  • 07:30 AM : 🔄 Daily Incremental Sync Task
+  • 08:00 AM : 🌅 Page A Morning Shift (08:00 + Jitter)
+  • 08:45 AM : 🌅 Page B Morning Shift (08:45 + Jitter - Staggered)
+  • 14:00 PM : ☀️ Page A Afternoon Shift (14:00 + Jitter)
+  • 14:45 PM : ☀️ Page B Afternoon Shift (14:45 + Jitter - Staggered)
+  • 19:00 PM : 🌙 Page A Evening Shift (19:00 + Jitter)
+  • 19:45 PM : 🌙 Page B Evening Shift (19:45 + Jitter - Staggered)
+======================================================================
+
+🟢 Cron daemon is running in background. Press Ctrl+C to exit.
+

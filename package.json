@@ -1,0 +1,33 @@
+{
+  "name": "oyl-marketing-automation",
+  "version": "1.0.0",
+  "description": "Antigravity Marketing Automation Engine for OYL Global - Dual Fanpage Auto-Publisher with Incremental Sync and Image Mutation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "node src/scraper.js --full",
+    "sync": "node src/scraper.js --sync",
+    "schedule": "node src/scheduler.js",
+    "start": "node src/scheduler.js",
+    "dry-run": "node src/cli.js dry-run",
+    "publish-now": "node src/cli.js publish-now",
+    "status": "node src/cli.js status",
+    "video": "node src/videoGenerator.js"
+  },
+  "keywords": [
+    "facebook",
+    "marketing-automation",
+    "playwright",
+    "round-robin",
+    "sharp",
+    "cron"
+  ],
+  "author": "Antigravity Marketing Automation Engineer",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3",
+    "playwright": "^1.50.1",
+    "sharp": "^0.33.5"
+  }
+}
