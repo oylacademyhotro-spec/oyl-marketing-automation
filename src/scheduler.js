@@ -268,6 +268,8 @@ export function startSchedulerDaemon() {
   console.log('  • 19:45 PM : 🌙 Page B Evening Shift (19:45 + Jitter - Staggered)');
   console.log('='.repeat(70) + '\n');
 
+  const CRON_OPTS = { timezone: 'Asia/Ho_Chi_Minh' };
+
   // 1. Cron 07:30 AM: Daily Incremental Sync
   cron.schedule(config.cron.syncCheck, async () => {
     console.log(`\n🔔 [CRON 07:30 AM] Running Daily Incremental Sync Task...`);
@@ -276,20 +278,20 @@ export function startSchedulerDaemon() {
     } catch (e) {
       console.error('❌ Daily sync task failed:', e.message);
     }
-  });
+  }, CRON_OPTS);
 
   // 2. Cron for Page A (08:00, 14:00, 19:00)
   config.cron.pageASlots.forEach(slot => {
     cron.schedule(slot.cron, async () => {
       await triggerPublish('A', slot.label);
-    });
+    }, CRON_OPTS);
   });
 
   // 3. Cron for Page B (08:45, 14:45, 19:45)
   config.cron.pageBSlots.forEach(slot => {
     cron.schedule(slot.cron, async () => {
       await triggerPublish('B', slot.label);
-    });
+    }, CRON_OPTS);
   });
 
   // 4. Cron for Video Reels (07:00, 15:00, 19:30) - Shuffled & Staggered
@@ -299,7 +301,7 @@ export function startSchedulerDaemon() {
         // Luân phiên: Ca 1 -> Page A, Ca 2 -> Page B, Ca 3 -> Page A
         const targetPage = idx % 2 === 0 ? 'A' : 'B';
         await triggerVideoPublish(targetPage, slot.label);
-      });
+      }, CRON_OPTS);
     });
   }
 
