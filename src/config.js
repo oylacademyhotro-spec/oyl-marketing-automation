@@ -16,22 +16,22 @@ export const config = {
   
   targetUrl: process.env.TARGET_URL || 'https://oyl-viral-studio.vercel.app/',
   
-  // Facebook Page A
+  // Facebook Page A (Du học toàn cầu OYLG)
   pageA: {
-    id: process.env.PAGE_A_ID || process.env.PAGE_ID || '',
-    token: process.env.PAGE_A_TOKEN || process.env.PAGE_ACCESS_TOKEN || '',
-    name: process.env.PAGE_A_NAME || 'Fanpage A (Chính)',
+    id: process.env.PAGE_A_ID || '553627547827807',
+    token: process.env.PAGE_A_TOKEN || 'EAAWankjKpZA4BShPVp977MQS9vSNYGImrS5ZBrE6qIkibRXDP8ZBQXTyzXr1nCtH9FR6YYVDQZCZC8XKA9ZBwYZCnNpxACWLckHtjEBiq4fdpLnxbU8goBmFZCQoO5NyXT2nYHydAItgzh6OvUvJ5RHuzbldHgQJ6XE7HRNbJRYVhZApEeZC0AEMZCE473gYAELylGiUvYAnYZBa0SsEIs8V1OCxMKyaZBNVVZBoPrbTRlYrDY4waeoePUwMEHL8gZD',
+    name: process.env.PAGE_A_NAME || 'Du học toàn cầu OYLG',
     brandCta: process.env.PAGE_A_CTA || '👉 Bố mẹ hãy comment hoặc nhắn tin trực tiếp để nhận lộ trình chi tiết và tư vấn 1:1 từ chuyên gia OYL Global!',
     hashtags: process.env.PAGE_A_HASHTAGS || '#OwnYourLifeGlobal #OYLGlobal #DinhHuongTuongLai #ThamVanHuongNghiep #CungConLapNghiep #GiaoDucThoiDaiMoi'
   },
   
-  // Facebook Page B
+  // Facebook Page B (Nguyên Phụng)
   pageB: {
-    id: process.env.PAGE_B_ID || '',
-    token: process.env.PAGE_B_TOKEN || '',
-    name: process.env.PAGE_B_NAME || 'Fanpage B (Vệ Tinh)',
-    brandCta: process.env.PAGE_B_CTA || '💬 Để lại dấu "." hoặc inbox ngay cho OYL Global để được hỗ trợ định hướng và nhận trọn bộ tài liệu nhé!',
-    hashtags: process.env.PAGE_B_HASHTAGS || '#OYL #TuChuCuocDoi #BiQuyetChonNganh #HocBong7030 #KyThiRieng #ChinhPhucDaiHoc'
+    id: process.env.PAGE_B_ID || '111979613513276',
+    token: process.env.PAGE_B_TOKEN || 'EAAWankjKpZA4BSlhDRTceBCL9le9G5ETF8JuJgVdXr4cYypxZC6yvYWyvtnR3QVcrLpum9lnpvB245ZAQih3drEJkJYFlreQzxGxjZApf2KtoMUfvhsGX8Shi1jhYJgkiMueKJ9tzfB3TPqUNMatEZBQ0K0mrEf2PwJZBggZCW0LO0cKOGpQrXLt6h9LEabbkqsZBHkk4SuK9xSAZBXNx6KCWNe0mHgWieatu5YFhLe6cKHSy48ZBqtDCDjwZDZD',
+    name: process.env.PAGE_B_NAME || 'Nguyên Phụng',
+    brandCta: process.env.PAGE_B_CTA || '💬 Để lại dấu "." hoặc inbox ngay cho Nguyên Phụng & OYL Global để được hỗ trợ định hướng và nhận trọn bộ tài liệu nhé!',
+    hashtags: process.env.PAGE_B_HASHTAGS || '#NguyenPhung #OYL #TuChuCuocDoi #BiQuyetChonNganh #HocBong7030 #KyThiRieng #ChinhPhucDaiHoc'
   },
 
   fbApiVersion: process.env.FB_API_VERSION || 'v20.0',
