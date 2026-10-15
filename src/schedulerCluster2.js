@@ -143,10 +143,10 @@ export async function triggerPublishCluster2(pageKey = 'C', shiftLabel = 'Ca Đ�
   // Caption với CTA và Hashtag chuẩn cho Page C hoặc Page D
   const fullCaption = `${nextPost.quote}\n\n${nextPost.caption}\n\n${pageConfig.cta}\n\n${pageConfig.hashtags}`;
 
-  // Image path: nếu là Page D (Trainer Nguyên Phụng) thì biến tấu nhẹ để khác hash với Page C
-  let imgPath = path.resolve(config.rootDir, 'assets', 'posts', `post_${(nextPost.id % 200) + 1}.png`);
+  // Image path: lấy từ thư mục posts_cluster2 được cào chuẩn từ oyl-career-coach-studio
+  let imgPath = path.resolve(config.rootDir, 'assets', 'posts_cluster2', `post_${nextPost.id}.png`);
   if (!fs.existsSync(imgPath)) {
-    imgPath = path.resolve(config.rootDir, 'assets', 'posts', 'post_1.png');
+    imgPath = path.resolve(config.rootDir, 'assets', 'posts_cluster2', 'post_1.png');
   }
 
   let finalImgPath = imgPath;
