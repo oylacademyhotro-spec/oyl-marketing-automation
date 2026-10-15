@@ -10,6 +10,7 @@
     "schedule": "node src/scheduler.js",
     "schedule:coach": "node src/schedulerCluster2.js start",
     "start": "node src/scheduler.js",
+    "start:all": "node src/masterScheduler.js",
     "upgrade-token:coach": "node scripts/upgradeTokensCluster2.js",
     "dry-run": "node src/cli.js dry-run",
     "publish-now": "node src/cli.js publish-now",

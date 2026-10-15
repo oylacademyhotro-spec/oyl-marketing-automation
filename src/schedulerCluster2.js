@@ -3,7 +3,7 @@ import path from 'path';
 import cron from 'node-cron';
 import configCluster2 from './configCluster2.js';
 import fbPublisher from './fbPublisher.js';
-import { mutatePostImage } from './imageMutator.js';
+import { mutateImageForPageB } from './imageMutator.js';
 
 const config = configCluster2;
 const CRON_OPTS = { timezone: 'Asia/Ho_Chi_Minh' };
@@ -17,55 +17,78 @@ function getRandomJitterMs() {
   return Math.floor(Math.random() * maxMs);
 }
 
-function loadDatabase() {
-  if (!fs.existsSync(config.databaseFile)) {
-    // Generate initial database from OYL_Career_Coach_Studio.csv
-    const csvContent = fs.readFileSync(config.csvSource, 'utf-8');
-    const lines = csvContent.split('\n').filter(l => l.trim().length > 0);
-    const headers = lines[0].split(',');
-    
-    // Parse CSV rows
-    const posts = [];
-    // Regular CSV parse with quotes support
-    let currentLine = '';
-    let insideQuotes = false;
-    let rows = [];
-
-    for (let i = 1; i < lines.length; i++) {
-      const line = lines[i];
-      if (!insideQuotes) {
-        currentLine = line;
+function parseCSV(text) {
+  const p = [];
+  let row = [''];
+  let inQuotes = false;
+  let i = 0;
+  while (i < text.length) {
+    const c = text[i];
+    const next = text[i + 1];
+    if (inQuotes) {
+      if (c === '"' && next === '"') {
+        row[row.length - 1] += '"';
+        i += 2;
+        continue;
+      } else if (c === '"') {
+        inQuotes = false;
+        i++;
+        continue;
       } else {
-        currentLine += '\n' + line;
+        row[row.length - 1] += c;
+        i++;
+        continue;
       }
-
-      const quoteCount = (currentLine.match(/"/g) || []).length;
-      if (quoteCount % 2 === 0) {
-        rows.push(currentLine);
-        currentLine = '';
-        insideQuotes = false;
+    } else {
+      if (c === '"') {
+        inQuotes = true;
+        i++;
+        continue;
+      } else if (c === ',') {
+        row.push('');
+        i++;
+        continue;
+      } else if (c === '\r') {
+        i++;
+        continue;
+      } else if (c === '\n') {
+        p.push(row);
+        row = [''];
+        i++;
+        continue;
       } else {
-        insideQuotes = true;
+        row[row.length - 1] += c;
+        i++;
+        continue;
       }
     }
+  }
+  if (row.length > 1 || row[0] !== '') {
+    p.push(row);
+  }
+  return p;
+}
 
-    rows.forEach((r, idx) => {
-      // Basic CSV field extractor
-      const parts = r.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g) || [];
-      const id = idx + 1;
-      posts.push({
+function loadDatabase() {
+  if (!fs.existsSync(config.databaseFile)) {
+    const csvContent = fs.readFileSync(config.csvSource, 'utf-8');
+    const rawRows = parseCSV(csvContent);
+    const rows = rawRows.slice(1);
+    const posts = rows.map((cols, idx) => {
+      const id = parseInt(cols[0], 10) || (idx + 1);
+      return {
         id,
         queue_index: id,
-        pillar: parts[1]?.replace(/^"|"$/g, '') || 'KỸ NĂNG & PHƯƠNG PHÁP THAM VẤN',
-        subhead: parts[2]?.replace(/^"|"$/g, '') || `Chuyên đề #${id}`,
-        quote: parts[3]?.replace(/^"|"$/g, '') || '',
-        caption: parts[4]?.replace(/^"|"$/g, '').replace(/""/g, '"') || '',
-        imagePath: `./assets/posts_cluster2/post_${id}.png`,
+        pillar: cols[1] || 'KỸ NĂNG & PHƯƠNG PHÁP THAM VẤN',
+        subhead: cols[2] || `Chuyên đề #${id}`,
+        quote: cols[3] || '',
+        caption: cols[4] || '',
+        imagePath: `./assets/posts/post_${((id - 1) % 200) + 1}.png`,
         publishing: {
           page_c: { status: 'pending' },
           page_d: { status: 'pending' }
         }
-      });
+      };
     });
 
     fs.writeFileSync(config.databaseFile, JSON.stringify(posts, null, 2), 'utf-8');
@@ -84,7 +107,7 @@ function getNextPendingPost(posts, pageKey) {
   return posts.find(p => (p.publishing?.[pKey]?.status || 'pending') === 'pending') || null;
 }
 
-export async function triggerPublishCluster2(pageKey = 'C', shiftLabel = 'Ca Đăng Bài') {
+export async function triggerPublishCluster2(pageKey = 'C', shiftLabel = 'Ca Đăng Bài', options = {}) {
   const now = new Date();
   const pageConfig = pageKey === 'C' ? config.pageC : config.pageD;
 
@@ -92,13 +115,17 @@ export async function triggerPublishCluster2(pageKey = 'C', shiftLabel = 'Ca Đ�
   console.log(`⏰ [CỤM 2 TRIGGER] ${now.toLocaleTimeString('vi-VN')} — ${shiftLabel}`);
   console.log(`📢 Target: ${pageConfig.name} (Page ${pageKey})`);
 
-  const jitterMs = getRandomJitterMs();
-  const jitterMinutes = (jitterMs / 60000).toFixed(1);
-  console.log(`🎲 Anti-Spam Random Jitter: +${jitterMinutes} phút (${jitterMs}ms)`);
+  if (!options.skipJitter) {
+    const jitterMs = getRandomJitterMs();
+    const jitterMinutes = (jitterMs / 60000).toFixed(1);
+    console.log(`🎲 Anti-Spam Random Jitter: +${jitterMinutes} phút (${jitterMs}ms)`);
 
-  if (jitterMs > 0 && !config.dryRun) {
-    console.log(`⏳ Đang chờ thời gian giãn cách ngẫu nhiên trước khi đăng...`);
-    await sleep(jitterMs);
+    if (jitterMs > 0 && !config.dryRun) {
+      console.log(`⏳ Đang chờ thời gian giãn cách ngẫu nhiên trước khi đăng...`);
+      await sleep(jitterMs);
+    }
+  } else {
+    console.log(`⚡ [SKIP JITTER] Chế độ đăng trực tiếp ngay lập tức.`);
   }
 
   const posts = loadDatabase();
@@ -124,9 +151,8 @@ export async function triggerPublishCluster2(pageKey = 'C', shiftLabel = 'Ca Đ�
 
   let finalImgPath = imgPath;
   if (pageKey === 'D') {
-    const mutatedPath = path.resolve(config.rootDir, 'assets', 'posts', `post_${nextPost.id}_cluster2_paged.png`);
-    await mutatePostImage(imgPath, mutatedPath, { variant: 'page_b' });
-    finalImgPath = mutatedPath;
+    const mutated = await mutateImageForPageB(imgPath);
+    finalImgPath = mutated.mutatedPath;
   }
 
   try {

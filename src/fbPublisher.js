@@ -278,3 +278,4 @@ export class FacebookPublisher {
 }
 
 export const fbPublisher = new FacebookPublisher();
+export default fbPublisher;
