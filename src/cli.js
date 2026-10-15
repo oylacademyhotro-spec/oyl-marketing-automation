@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { config } from './config.js';
 import { runScraper } from './scraper.js';
-import { loadDatabase, triggerPublish } from './scheduler.js';
+import { loadDatabase, triggerPublish, triggerVideoPublish } from './scheduler.js';
 import { preparePostPayload } from './captionVariator.js';
 import { getFileHash } from './imageMutator.js';
 
@@ -18,6 +18,12 @@ async function main() {
       const pageArg = (process.argv.find(a => a.startsWith('--page=')) || '--page=A').split('=')[1].toUpperCase();
       console.log(`🚀 Executing immediate test publish for Page ${pageArg}...`);
       await triggerPublish(pageArg, 'Manual Test Trigger', { skipJitter: true });
+      break;
+
+    case 'publish-video':
+      const pageV = (process.argv.find(a => a.startsWith('--page=')) || '--page=A').split('=')[1].toUpperCase();
+      console.log(`🚀 Executing immediate test video publish for Page ${pageV}...`);
+      await triggerVideoPublish(pageV, 'Manual Test Video Trigger', { skipJitter: true });
       break;
 
     case 'status':

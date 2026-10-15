@@ -158,6 +158,92 @@ export async function triggerPublish(pageKey = 'A', shiftLabel = 'Scheduled Shif
 }
 
 /**
+ * Executes a scheduled video publication (Reels / Shorts)
+ * Implements intelligent topic-shuffling so video and photo posts never duplicate topics on the same day!
+ */
+export async function triggerVideoPublish(pageKey = 'A', shiftLabel = 'Scheduled Video Shift', options = {}) {
+  const now = new Date();
+  const pageConfig = pageKey === 'A' ? config.pageA : config.pageB;
+  
+  console.log('\n' + '='.repeat(70));
+  console.log(`🎬 [VIDEO TRIGGER] ${now.toLocaleTimeString('vi-VN')} — ${shiftLabel}`);
+  console.log(`📢 Target Fanpage : ${pageConfig.name} (Page ${pageKey})`);
+  
+  const jitterMs = options.skipJitter ? 0 : getRandomJitterMs();
+  if (options.skipJitter) {
+    console.log(`⚡ Anti-Spam Jitter skipped for manual immediate video trigger.`);
+  } else {
+    console.log(`🎲 Anti-Spam Random Jitter: +${(jitterMs / 60000).toFixed(1)} minutes`);
+  }
+  
+  if (jitterMs > 0 && !config.dryRun) {
+    console.log(`⏳ Waiting for jitter delay before publishing video...`);
+    await sleep(jitterMs);
+  }
+
+  const posts = loadDatabase();
+  const videoDir = path.join(config.rootDir, 'assets', 'videos');
+  const videoFiles = fs.existsSync(videoDir) 
+    ? fs.readdirSync(videoDir).filter(f => f.endsWith('.mp4'))
+    : [];
+
+  if (videoFiles.length === 0) {
+    console.warn('⚠️ Không tìm thấy file video MP4 nào trong assets/videos!');
+    return;
+  }
+
+  // TRÁO ĐỔI LỘN XỘN (CONTENT SHUFFLE & ANTI-OVERLAP):
+  // Tìm chủ đề bài viết ảnh đã đăng hôm nay trên Page này
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const todayPhotoTopics = new Set(
+    posts
+      .filter(p => p.publishing?.[`page_${pageKey.toLowerCase()}`]?.published_at?.startsWith(todayStr))
+      .map(p => p.pillar)
+  );
+
+  // Chọn video có chủ đề KHÁC với chủ đề bài viết hôm nay (hoặc shuffle ngẫu nhiên)
+  const candidateVideos = videoFiles.filter(vf => {
+    const match = vf.match(/post_(\d+)/);
+    if (!match) return true;
+    const post = posts.find(p => p.id === parseInt(match[1]));
+    return post ? !todayPhotoTopics.has(post.pillar) : true;
+  });
+
+  const pool = candidateVideos.length > 0 ? candidateVideos : videoFiles;
+  const selectedVideoFile = pool[Math.floor(Math.random() * pool.length)];
+  const videoPath = path.join(videoDir, selectedVideoFile);
+
+  const match = selectedVideoFile.match(/post_(\d+)/);
+  const matchedPost = match ? posts.find(p => p.id === parseInt(match[1])) : posts[0];
+
+  const payload = preparePostPayload(matchedPost || posts[0], pageKey);
+  const videoCaption = `🎬 【 VIDEO NGẮN ĐỊNH HƯỚNG 】\n\n${payload.caption}`;
+
+  console.log(`🎥 Uploading Video : ${selectedVideoFile}`);
+  console.log(`   • Tiêu đề : ${matchedPost?.subhead || 'Định hướng OYL Global'}`);
+  console.log(`   • Chủ đề  : ${matchedPost?.pillar || 'Định Hướng Tương Lai'} (Đã tráo đổi so le với bài viết)`);
+
+  try {
+    const result = await fbPublisher.publishVideo({
+      pageKey,
+      videoPath,
+      title: matchedPost?.subhead || 'OYL Global Video',
+      description: videoCaption
+    });
+
+    if (result.success) {
+      console.log(`✅ [VIDEO SUCCESS] Published video to ${pageConfig.name}!`);
+      console.log(`   • Video ID  : ${result.videoId}`);
+      console.log(`   • Post ID   : ${result.postId}`);
+      console.log(`   • Timestamp : ${result.publishedAt}`);
+    }
+  } catch (err) {
+    console.error(`❌ [VIDEO FAILED] Error publishing video: ${err.message}`);
+  }
+  console.log('='.repeat(70) + '\n');
+}
+
+/**
  * Initializes all cron jobs
  */
 export function startSchedulerDaemon() {
@@ -170,12 +256,15 @@ export function startSchedulerDaemon() {
   console.log(`🏢 Page B (Vệ Tinh)    : ${config.pageB.name} [ID: ${config.pageB.id || 'Not Set'}]`);
   console.log(`🎲 Random Jitter Max   : ${config.randomJitterMaxMinutes} minutes`);
   console.log('\n⏰ ACTIVE CRON TIMETABLE:');
+  console.log('  • 07:00 AM : 🎬 Video Reels/Shorts Shift 1 (So le chủ đề)');
   console.log('  • 07:30 AM : 🔄 Daily Incremental Sync Task');
   console.log('  • 08:00 AM : 🌅 Page A Morning Shift (08:00 + Jitter)');
   console.log('  • 08:45 AM : 🌅 Page B Morning Shift (08:45 + Jitter - Staggered)');
   console.log('  • 14:00 PM : ☀️ Page A Afternoon Shift (14:00 + Jitter)');
   console.log('  • 14:45 PM : ☀️ Page B Afternoon Shift (14:45 + Jitter - Staggered)');
+  console.log('  • 15:00 PM : 🎬 Video Reels/Shorts Shift 2 (So le chủ đề)');
   console.log('  • 19:00 PM : 🌙 Page A Evening Shift (19:00 + Jitter)');
+  console.log('  • 19:30 PM : 🎬 Video Reels/Shorts Shift 3 (So le chủ đề)');
   console.log('  • 19:45 PM : 🌙 Page B Evening Shift (19:45 + Jitter - Staggered)');
   console.log('='.repeat(70) + '\n');
 
@@ -202,6 +291,17 @@ export function startSchedulerDaemon() {
       await triggerPublish('B', slot.label);
     });
   });
+
+  // 4. Cron for Video Reels (07:00, 15:00, 19:30) - Shuffled & Staggered
+  if (config.cron.videoSlots) {
+    config.cron.videoSlots.forEach((slot, idx) => {
+      cron.schedule(slot.cron, async () => {
+        // Luân phiên: Ca 1 -> Page A, Ca 2 -> Page B, Ca 3 -> Page A
+        const targetPage = idx % 2 === 0 ? 'A' : 'B';
+        await triggerVideoPublish(targetPage, slot.label);
+      });
+    });
+  }
 
   console.log('🟢 Cron daemon is running in background. Press Ctrl+C to exit.\n');
 

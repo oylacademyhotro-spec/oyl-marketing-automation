@@ -170,6 +170,95 @@ export class FacebookPublisher {
       }
     }
   }
+
+  /**
+   * Publishes a video (Reels / Video Post) to the specified Fanpage
+   */
+  async publishVideo({
+    pageKey = 'A',
+    videoPath,
+    title,
+    description,
+    retries = 2
+  }) {
+    const { pageId, token, name } = this.getPageCredentials(pageKey);
+
+    if (!fs.existsSync(videoPath)) {
+      throw new Error(`Video file does not exist: ${videoPath}`);
+    }
+
+    // DRY RUN MODE
+    if (this.dryRun || !pageId || !token) {
+      const simulatedId = `sim_video_${pageKey.toLowerCase()}_${Date.now()}`;
+      return {
+        success: true,
+        dryRun: true,
+        pageKey,
+        pageName: name,
+        videoId: simulatedId,
+        postId: `${pageId || 'PAGE_ID'}_${simulatedId}`,
+        videoPath,
+        publishedAt: new Date().toISOString()
+      };
+    }
+
+    // PRODUCTION MODE: Upload MP4 via graph-video.facebook.com
+    const fileBuffer = fs.readFileSync(videoPath);
+    const fileName = path.basename(videoPath);
+    const blob = new Blob([fileBuffer], { type: 'video/mp4' });
+
+    const formData = new FormData();
+    formData.append('access_token', token);
+    if (title) formData.append('title', title);
+    formData.append('description', description);
+    formData.append('source', blob, fileName);
+
+    const endpoint = `https://graph-video.facebook.com/${this.apiVersion}/${pageId}/videos`;
+
+    let attempt = 0;
+    while (attempt <= retries) {
+      try {
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          body: formData
+        });
+
+        const data = await response.json();
+
+        if (data.error) {
+          const isTransient = [1, 2, 4, 17, 341].includes(data.error.code);
+          if (isTransient && attempt < retries) {
+            attempt++;
+            const backoffMs = Math.pow(2, attempt) * 2000;
+            console.warn(`[FB Video ${name}] Transient error: ${data.error.message}. Retrying in ${backoffMs}ms...`);
+            await new Promise(r => setTimeout(r, backoffMs));
+            continue;
+          }
+          throw new Error(`Facebook Video API Error (${data.error.code}): ${data.error.message}`);
+        }
+
+        return {
+          success: true,
+          dryRun: false,
+          pageKey,
+          pageName: name,
+          videoId: data.id,
+          postId: `${pageId}_${data.id}`,
+          videoPath,
+          publishedAt: new Date().toISOString()
+        };
+      } catch (err) {
+        if (attempt < retries) {
+          attempt++;
+          const backoffMs = Math.pow(2, attempt) * 2000;
+          console.warn(`[FB Video ${name}] Video upload retry in ${backoffMs}ms...`);
+          await new Promise(r => setTimeout(r, backoffMs));
+        } else {
+          throw err;
+        }
+      }
+    }
+  }
 }
 
 export const fbPublisher = new FacebookPublisher();

@@ -11,6 +11,7 @@
     "start": "node src/scheduler.js",
     "dry-run": "node src/cli.js dry-run",
     "publish-now": "node src/cli.js publish-now",
+    "publish-video": "node src/cli.js publish-video",
     "status": "node src/cli.js status",
     "video": "node src/videoGenerator.js"
   },

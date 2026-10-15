@@ -56,6 +56,13 @@ export const config = {
       { time: '08:45', cron: '45 8 * * *', label: 'Ca sáng (Page B - So le)' },
       { time: '14:45', cron: '45 14 * * *', label: 'Ca chiều (Page B - So le)' },
       { time: '19:45', cron: '45 19 * * *', label: 'Ca tối (Page B - So le)' }
+    ],
+
+    // Video Reels/Shorts slots (07:00, 15:00, 19:30) - Shuffled topics
+    videoSlots: [
+      { time: '07:00', cron: '0 7 * * *', label: 'Ca Video Sáng (07:00)' },
+      { time: '15:00', cron: '0 15 * * *', label: 'Ca Video Chiều (15:00)' },
+      { time: '19:30', cron: '30 19 * * *', label: 'Ca Video Tối (19:30)' }
     ]
   }
 };
