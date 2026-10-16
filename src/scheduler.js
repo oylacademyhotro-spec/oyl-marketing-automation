@@ -24,7 +24,7 @@ function sleep(ms) {
 }
 
 function getRandomJitterMs() {
-  const maxMinutes = config.randomJitterMaxMinutes || 10;
+  const maxMinutes = Number.isFinite(config.randomJitterMaxMinutes) ? config.randomJitterMaxMinutes : 10;
   const jitterMs = Math.floor(Math.random() * maxMinutes * 60 * 1000);
   return jitterMs;
 }
@@ -326,6 +326,8 @@ export function startSchedulerDaemon() {
     });
   }
 }
+
+export { startSchedulerDaemon as startScheduler };
 
 // Direct run
 if (process.argv[1] && process.argv[1].endsWith('scheduler.js')) {

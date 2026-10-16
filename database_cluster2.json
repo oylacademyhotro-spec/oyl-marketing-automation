@@ -54,7 +54,9 @@
     "imagePath": "./assets/posts_cluster2/post_3.png",
     "publishing": {
       "page_c": {
-        "status": "pending"
+        "status": "published",
+        "published_at": "2026-10-16T12:30:06.025Z",
+        "post_id": "103484708439848_1706569251479481"
       },
       "page_d": {
         "status": "published",
@@ -77,7 +79,9 @@
         "status": "pending"
       },
       "page_d": {
-        "status": "pending"
+        "status": "published",
+        "published_at": "2026-10-16T12:51:17.429Z",
+        "post_id": "982336264968925_122125806159288314"
       }
     }
   },

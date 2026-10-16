@@ -94,9 +94,10 @@
     "created_at": "2026-10-14T11:53:40.865Z",
     "publishing": {
       "page_a": {
-        "status": "pending",
-        "published_at": null,
-        "post_id": null
+        "status": "published",
+        "published_at": "2026-10-16T01:03:35.561Z",
+        "post_id": "553627547827807_122177381654733456",
+        "photo_id": "122177381636733456"
       },
       "page_b": {
         "status": "published",
@@ -121,9 +122,10 @@
     "created_at": "2026-10-14T11:53:08.634Z",
     "publishing": {
       "page_a": {
-        "status": "pending",
-        "published_at": null,
-        "post_id": null
+        "status": "published",
+        "published_at": "2026-10-16T12:51:17.405Z",
+        "post_id": "553627547827807_122177418524733456",
+        "photo_id": "122177418506733456"
       },
       "page_b": {
         "status": "published",
@@ -181,9 +183,10 @@
         "photo_id": "122177336426733456"
       },
       "page_b": {
-        "status": "pending",
-        "published_at": null,
-        "post_id": null
+        "status": "published",
+        "published_at": "2026-10-16T01:47:53.779Z",
+        "post_id": "111979613513276_1771395457905094",
+        "photo_id": "1771395444571762"
       }
     },
     "queue_index": 7,
@@ -207,9 +210,10 @@
         "post_id": null
       },
       "page_b": {
-        "status": "pending",
-        "published_at": null,
-        "post_id": null
+        "status": "published",
+        "published_at": "2026-10-16T12:51:23.095Z",
+        "post_id": "111979613513276_1771890927855547",
+        "photo_id": "1771890894522217"
       }
     },
     "queue_index": 8,
@@ -3467,15 +3471,15 @@
     "scheduled_slot": 1
   },
   {
-    "id": 24,
-    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
-    "subhead": "Kỹ năng làm bài thi trên máy tính (HSA, TSA, V-SAT)",
-    "quote": "5 KỸ NĂNG SỐNG CÒN KHI THI TRÊN MÁY TÍNH (HSA, TSA, V-SAT): Đừng để mất oan 15–20 điểm chỉ vì thao tác nhầm hoặc sa lầy vào một câu khó!",
-    "caption": "🖱️ RẤT NHIỀU HỌC SINH GIỎI BỊ KHỚP KHI LẦN ĐẦU THI TRÊN MÁY TÍNH VÌ CHƯA BIẾT 5 QUY TẮC NÀY:\n\nKhi bước vào phòng thi HSA, TSA hay V-SAT trên máy tính, kiến thức chỉ quyết định 70%, 30% còn lại nằm ở chiến thuật thao tác và phân bổ thời gian:\n\n1️⃣ Quy tắc \"Hết giờ phần nào đóng phần đó\":\n• Phần 1 (Toán 75 phút), Phần 2 (Văn 60 phút), Phần 3 (Khoa học/Anh 60 phút) được tính giờ độc lập. Khi đã chuyển sang phần tiếp theo thì không thể quay lại phần trước!\n2️⃣ Quy tắc \"90 giây vàng\":\n• Nếu đọc một câu Toán/Lý/Hóa quá 90 giây chưa tìm ra hướng giải, hãy lập tức gắn cờ đánh dấu (Bookmark) trên màn hình, chọn tạm 1 đáp án và chuyển sang câu tiếp theo ngay.\n3️⃣ Cẩn thận định dạng điền đáp án ngắn:\n• Đọc kỹ yêu cầu làm tròn (đến hàng phần chục hay phần trăm, dùng dấu phẩy hay dấu chấm, phân số tối giản a/b). Một lỗi gõ thừa dấu cách cũng khiến máy chấm 0 điểm câu đó!\n4️⃣ Tuyệt đối không bỏ trống bất kỳ câu nào:\n• Đề thi không trừ điểm câu sai, vì vậy 3 phút cuối mỗi phần phải kiểm tra bảng tổng hợp để điền kín 100% số câu.\n5️⃣ Luyện ít nhất 5 – 10 đề trên giao diện mô phỏng máy tính ở nhà trước khi đi thi thật!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
-    "image_path": "./assets/posts/post_24.png",
-    "mutated_image_path": "./assets/posts/post_24_page_b.png",
-    "created_at": "2026-10-14T11:53:03.693Z",
+    "id": 74,
+    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
+    "subhead": "Mạng lưới 500 Đại sứ Học bổng & Phối hợp Địa phương toàn quốc",
+    "quote": "LAN TỎA HỌC BỔNG ĐẾN TỪNG XÃ PHƯỜNG, THÔN BẢN: Sự phối hợp chặt chẽ giữa Trường THPT, Trung tâm GDNN-GDTX, Đoàn Thanh niên, Hội Phụ nữ và 500 Đại sứ Học bổng toàn quốc!",
+    "caption": "🌐 VÌ SAO CHƯƠNG TRÌNH HỌC BỔNG VỪA HỌC VỪA LÀM ĐƯỢC TRIỂN KHAI RỘNG RÃI TỪ CẤP TỈNH, XÃ ĐẾN TỪNG TRƯỜNG THPT?\n\nĐể 1.000 suất Học bổng Toàn phần (70% Nhà nước + 30% Doanh nghiệp) đến đúng tay những học sinh nghèo vượt khó, con em gia đình chính sách và thanh niên khát khao lập nghiệp trên 63 tỉnh thành, chương trình triển khai đồng bộ qua 7 kênh chính thống:\n\n1️⃣ Cấp Tỉnh/Thành phố: Phối hợp cùng các Sở, Ban, Ngành và tổ chức chính trị - xã hội.\n2️⃣ Cấp Xã/Phường: Phối hợp cùng Đảng ủy, UBND, Mặt trận Tổ quốc, Đoàn Thanh niên, Hội Phụ nữ.\n3️⃣ Cấp Thôn/Xóm/Tổ dân phố: Thông tin trực tiếp qua Trưởng thôn, Tổ trưởng TDP, Bí thư chi bộ.\n4️⃣ Hệ thống Trường THPT, Trung tâm GDNN – GDTX, Trường Dân tộc Nội trú trên toàn quốc.\n5️⃣ Các đơn vị Quân đội, Công an có chiến sĩ chuẩn bị xuất ngũ.\n6️⃣ Mạng lưới 500 Đại sứ Học bổng là các thầy cô giáo tâm huyết trên khắp cả nước.\n7️⃣ Tư vấn trực tiếp cùng Phụ huynh và Học sinh qua hệ thống văn phòng đại diện!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
+    "image_path": "./assets/posts/post_74.png",
+    "mutated_image_path": "./assets/posts/post_74_page_b.png",
+    "created_at": "2026-10-14T11:53:35.782Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -3493,15 +3497,15 @@
     "scheduled_slot": 2
   },
   {
-    "id": 74,
-    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
-    "subhead": "Mạng lưới 500 Đại sứ Học bổng & Phối hợp Địa phương toàn quốc",
-    "quote": "LAN TỎA HỌC BỔNG ĐẾN TỪNG XÃ PHƯỜNG, THÔN BẢN: Sự phối hợp chặt chẽ giữa Trường THPT, Trung tâm GDNN-GDTX, Đoàn Thanh niên, Hội Phụ nữ và 500 Đại sứ Học bổng toàn quốc!",
-    "caption": "🌐 VÌ SAO CHƯƠNG TRÌNH HỌC BỔNG VỪA HỌC VỪA LÀM ĐƯỢC TRIỂN KHAI RỘNG RÃI TỪ CẤP TỈNH, XÃ ĐẾN TỪNG TRƯỜNG THPT?\n\nĐể 1.000 suất Học bổng Toàn phần (70% Nhà nước + 30% Doanh nghiệp) đến đúng tay những học sinh nghèo vượt khó, con em gia đình chính sách và thanh niên khát khao lập nghiệp trên 63 tỉnh thành, chương trình triển khai đồng bộ qua 7 kênh chính thống:\n\n1️⃣ Cấp Tỉnh/Thành phố: Phối hợp cùng các Sở, Ban, Ngành và tổ chức chính trị - xã hội.\n2️⃣ Cấp Xã/Phường: Phối hợp cùng Đảng ủy, UBND, Mặt trận Tổ quốc, Đoàn Thanh niên, Hội Phụ nữ.\n3️⃣ Cấp Thôn/Xóm/Tổ dân phố: Thông tin trực tiếp qua Trưởng thôn, Tổ trưởng TDP, Bí thư chi bộ.\n4️⃣ Hệ thống Trường THPT, Trung tâm GDNN – GDTX, Trường Dân tộc Nội trú trên toàn quốc.\n5️⃣ Các đơn vị Quân đội, Công an có chiến sĩ chuẩn bị xuất ngũ.\n6️⃣ Mạng lưới 500 Đại sứ Học bổng là các thầy cô giáo tâm huyết trên khắp cả nước.\n7️⃣ Tư vấn trực tiếp cùng Phụ huynh và Học sinh qua hệ thống văn phòng đại diện!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
-    "image_path": "./assets/posts/post_74.png",
-    "mutated_image_path": "./assets/posts/post_74_page_b.png",
-    "created_at": "2026-10-14T11:53:35.782Z",
+    "id": 24,
+    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
+    "subhead": "Kỹ năng làm bài thi trên máy tính (HSA, TSA, V-SAT)",
+    "quote": "5 KỸ NĂNG SỐNG CÒN KHI THI TRÊN MÁY TÍNH (HSA, TSA, V-SAT): Đừng để mất oan 15–20 điểm chỉ vì thao tác nhầm hoặc sa lầy vào một câu khó!",
+    "caption": "🖱️ RẤT NHIỀU HỌC SINH GIỎI BỊ KHỚP KHI LẦN ĐẦU THI TRÊN MÁY TÍNH VÌ CHƯA BIẾT 5 QUY TẮC NÀY:\n\nKhi bước vào phòng thi HSA, TSA hay V-SAT trên máy tính, kiến thức chỉ quyết định 70%, 30% còn lại nằm ở chiến thuật thao tác và phân bổ thời gian:\n\n1️⃣ Quy tắc \"Hết giờ phần nào đóng phần đó\":\n• Phần 1 (Toán 75 phút), Phần 2 (Văn 60 phút), Phần 3 (Khoa học/Anh 60 phút) được tính giờ độc lập. Khi đã chuyển sang phần tiếp theo thì không thể quay lại phần trước!\n2️⃣ Quy tắc \"90 giây vàng\":\n• Nếu đọc một câu Toán/Lý/Hóa quá 90 giây chưa tìm ra hướng giải, hãy lập tức gắn cờ đánh dấu (Bookmark) trên màn hình, chọn tạm 1 đáp án và chuyển sang câu tiếp theo ngay.\n3️⃣ Cẩn thận định dạng điền đáp án ngắn:\n• Đọc kỹ yêu cầu làm tròn (đến hàng phần chục hay phần trăm, dùng dấu phẩy hay dấu chấm, phân số tối giản a/b). Một lỗi gõ thừa dấu cách cũng khiến máy chấm 0 điểm câu đó!\n4️⃣ Tuyệt đối không bỏ trống bất kỳ câu nào:\n• Đề thi không trừ điểm câu sai, vì vậy 3 phút cuối mỗi phần phải kiểm tra bảng tổng hợp để điền kín 100% số câu.\n5️⃣ Luyện ít nhất 5 – 10 đề trên giao diện mô phỏng máy tính ở nhà trước khi đi thi thật!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
+    "image_path": "./assets/posts/post_24.png",
+    "mutated_image_path": "./assets/posts/post_24_page_b.png",
+    "created_at": "2026-10-14T11:53:03.693Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -3701,15 +3705,15 @@
     "scheduled_slot": 1
   },
   {
-    "id": 25,
-    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
-    "subhead": "Danh sách trường Đại học Top đầu miền Bắc xét tuyển HSA & TSA",
-    "quote": "ĐIỂM THI HSA & TSA MỞ CÁNH CỬA VÀO NHỮNG TRƯỜNG ĐẠI HỌC TOP ĐẦU NÀO Ở MIỀN BẮC? Danh sách các trường dành chỉ tiêu lớn nhất cho thí sinh có điểm thi riêng!",
-    "caption": "🏛️ CẦM ĐIỂM THI HSA (ĐHQG HÀ NỘI) VÀ TSA (ĐH BÁCH KHOA) TRONG TAY, CON XÉT TUYỂN ĐƯỢC VÀO NHỮNG TRƯỜNG NÀO?\n\nHiện nay hầu hết các trường Đại học tốp đầu phía Bắc đều sử dụng kết quả HSA và TSA như một phương thức xét tuyển chủ lực:\n\n📌 1. Khối trường thành viên ĐH Quốc gia Hà Nội (Ưu tiên số 1 cho HSA):\n• ĐH Công nghệ (UET), ĐH Kinh tế (UEB), ĐH Ngoại ngữ (ULIS), ĐH Khoa học Tự nhiên, ĐH Khoa học Xã hội & Nhân văn, ĐH Giáo dục, ĐH Y Dược, ĐH Luật, Trường Quốc tế...\n\n📌 2. Khối trường Kinh tế – Tài chính – Ngân hàng Top đầu:\n• ĐH Kinh tế Quốc dân (NEU), ĐH Ngoại thương (FTU), Học viện Ngân hàng (BA), ĐH Thương mại (TMU), Học viện Tài chính (AOF), Học viện Chính sách & Phát triển (APD)... (xét cả HSA và TSA!).\n\n📌 3. Khối trường Kỹ thuật – Công nghệ – Y Dược – Quân đội:\n• ĐH Bách Khoa Hà Nội (dành tỷ lệ chỉ tiêu lớn cho TSA), ĐH Xây dựng, ĐH Giao thông Vận tải, ĐH Công nghiệp Hà Nội, ĐH Thủy lợi, ĐH Mỏ - Địa chất, ĐH Dược Hà Nội, ĐH Y Dược Thái Bình và khối các trường Quân đội!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
-    "image_path": "./assets/posts/post_25.png",
-    "mutated_image_path": "./assets/posts/post_25_page_b.png",
-    "created_at": "2026-10-14T11:53:04.501Z",
+    "id": 75,
+    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
+    "subhead": "Dành cho Sinh viên đang học dở TC/CĐ/ĐH muốn chuyển sang Hệ Kép",
+    "quote": "ĐANG HỌC CAO ĐẲNG, ĐẠI HỌC NHƯNG GIA ĐÌNH ĐỨT GÃY TÀI CHÍNH? Cơ hội chuyển sang Chương trình Học bổng Vừa Học Vừa Làm để được miễn 100% học phí và có lương 6–12 triệu/tháng!",
+    "caption": "🔄 PHAO CỨU SINH CHO NHỮNG SINH VIÊN ĐANG CÓ NGUY CƠ PHẢI NGHỈ HỌC GIỮA CHỪNG VÌ KINH TẾ GIA ĐÌNH!\n\nThực tế có rất nhiều em đang học năm nhất, năm hai tại các trường Trung cấp, Cao đẳng, Đại học nhưng gia đình đột ngột gặp biến cố kinh tế, bố mẹ không còn khả năng gửi 5 – 7 triệu/tháng tiền học phí và sinh hoạt phí.\n\nThay vì bỏ dở việc học để đi làm lao động tự do, Thông báo số 79/TB-ĐD/QHB mở rộng cánh cửa xét trao Học bổng Khuyến học & Giáo dục Việt cho cả nhóm đối tượng:\n✅ Học sinh, sinh viên đang theo học hệ Trung cấp, Cao đẳng, Đại học hoặc đã tốt nghiệp Trung cấp muốn học liên thông lên Cao đẳng, Đại học chính quy!\n✅ Khi tham gia chương trình, sinh viên được chuyển sang mô hình Đào tạo Kép: 30% Lý thuyết – 70% Thực hành hưởng lương 6 – 12 triệu/tháng tại doanh nghiệp FDI.\n✅ Được hỗ trợ 100% học phí (70% Nhà nước + 30% Doanh nghiệp), miễn phí chỗ ở Ký túc xá, hỗ trợ tiền ăn và đi lại để viết tiếp ước mơ cầm tấm bằng chính quy!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
+    "image_path": "./assets/posts/post_75.png",
+    "mutated_image_path": "./assets/posts/post_75_page_b.png",
+    "created_at": "2026-10-14T11:53:36.449Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -3727,15 +3731,15 @@
     "scheduled_slot": 2
   },
   {
-    "id": 75,
-    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
-    "subhead": "Dành cho Sinh viên đang học dở TC/CĐ/ĐH muốn chuyển sang Hệ Kép",
-    "quote": "ĐANG HỌC CAO ĐẲNG, ĐẠI HỌC NHƯNG GIA ĐÌNH ĐỨT GÃY TÀI CHÍNH? Cơ hội chuyển sang Chương trình Học bổng Vừa Học Vừa Làm để được miễn 100% học phí và có lương 6–12 triệu/tháng!",
-    "caption": "🔄 PHAO CỨU SINH CHO NHỮNG SINH VIÊN ĐANG CÓ NGUY CƠ PHẢI NGHỈ HỌC GIỮA CHỪNG VÌ KINH TẾ GIA ĐÌNH!\n\nThực tế có rất nhiều em đang học năm nhất, năm hai tại các trường Trung cấp, Cao đẳng, Đại học nhưng gia đình đột ngột gặp biến cố kinh tế, bố mẹ không còn khả năng gửi 5 – 7 triệu/tháng tiền học phí và sinh hoạt phí.\n\nThay vì bỏ dở việc học để đi làm lao động tự do, Thông báo số 79/TB-ĐD/QHB mở rộng cánh cửa xét trao Học bổng Khuyến học & Giáo dục Việt cho cả nhóm đối tượng:\n✅ Học sinh, sinh viên đang theo học hệ Trung cấp, Cao đẳng, Đại học hoặc đã tốt nghiệp Trung cấp muốn học liên thông lên Cao đẳng, Đại học chính quy!\n✅ Khi tham gia chương trình, sinh viên được chuyển sang mô hình Đào tạo Kép: 30% Lý thuyết – 70% Thực hành hưởng lương 6 – 12 triệu/tháng tại doanh nghiệp FDI.\n✅ Được hỗ trợ 100% học phí (70% Nhà nước + 30% Doanh nghiệp), miễn phí chỗ ở Ký túc xá, hỗ trợ tiền ăn và đi lại để viết tiếp ước mơ cầm tấm bằng chính quy!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
-    "image_path": "./assets/posts/post_75.png",
-    "mutated_image_path": "./assets/posts/post_75_page_b.png",
-    "created_at": "2026-10-14T11:53:36.449Z",
+    "id": 25,
+    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
+    "subhead": "Danh sách trường Đại học Top đầu miền Bắc xét tuyển HSA & TSA",
+    "quote": "ĐIỂM THI HSA & TSA MỞ CÁNH CỬA VÀO NHỮNG TRƯỜNG ĐẠI HỌC TOP ĐẦU NÀO Ở MIỀN BẮC? Danh sách các trường dành chỉ tiêu lớn nhất cho thí sinh có điểm thi riêng!",
+    "caption": "🏛️ CẦM ĐIỂM THI HSA (ĐHQG HÀ NỘI) VÀ TSA (ĐH BÁCH KHOA) TRONG TAY, CON XÉT TUYỂN ĐƯỢC VÀO NHỮNG TRƯỜNG NÀO?\n\nHiện nay hầu hết các trường Đại học tốp đầu phía Bắc đều sử dụng kết quả HSA và TSA như một phương thức xét tuyển chủ lực:\n\n📌 1. Khối trường thành viên ĐH Quốc gia Hà Nội (Ưu tiên số 1 cho HSA):\n• ĐH Công nghệ (UET), ĐH Kinh tế (UEB), ĐH Ngoại ngữ (ULIS), ĐH Khoa học Tự nhiên, ĐH Khoa học Xã hội & Nhân văn, ĐH Giáo dục, ĐH Y Dược, ĐH Luật, Trường Quốc tế...\n\n📌 2. Khối trường Kinh tế – Tài chính – Ngân hàng Top đầu:\n• ĐH Kinh tế Quốc dân (NEU), ĐH Ngoại thương (FTU), Học viện Ngân hàng (BA), ĐH Thương mại (TMU), Học viện Tài chính (AOF), Học viện Chính sách & Phát triển (APD)... (xét cả HSA và TSA!).\n\n📌 3. Khối trường Kỹ thuật – Công nghệ – Y Dược – Quân đội:\n• ĐH Bách Khoa Hà Nội (dành tỷ lệ chỉ tiêu lớn cho TSA), ĐH Xây dựng, ĐH Giao thông Vận tải, ĐH Công nghiệp Hà Nội, ĐH Thủy lợi, ĐH Mỏ - Địa chất, ĐH Dược Hà Nội, ĐH Y Dược Thái Bình và khối các trường Quân đội!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
+    "image_path": "./assets/posts/post_25.png",
+    "mutated_image_path": "./assets/posts/post_25_page_b.png",
+    "created_at": "2026-10-14T11:53:04.501Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -3935,15 +3939,15 @@
     "scheduled_slot": 1
   },
   {
-    "id": 26,
-    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
-    "subhead": "Danh sách trường Đại học Top đầu miền Nam xét tuyển V-ACT & V-SAT",
-    "quote": "ĐIỂM THI V-ACT (ĐHQG TP.HCM) & V-SAT MỞ TOANG CÁNH CỬA VÀO HƠN 100 TRƯỜNG ĐẠI HỌC PHÍA NAM: Từ Bách Khoa, Kinh tế, Ngoại thương đến Y Dược, Ngân hàng!",
-    "caption": "🌴 SĨ TỬ PHÍA NAM & MIỀN TRUNG – TÂY NGUYÊN: CẦM ĐIỂM V-ACT VÀ V-SAT SẼ ĐỖ VÀO NHỮNG TRƯỜNG LỚN NÀO?\n\nNếu chỉ chờ điểm thi Tốt nghiệp THPT, bạn chỉ có 1 cơ hội. Nhưng nếu sở hữu điểm V-ACT (ĐHQG TP.HCM) và V-SAT, bạn nắm trong tay cơ hội xét tuyển vào hơn 100 trường Đại học:\n\n📌 1. Hệ thống các trường thành viên ĐHQG TP.HCM (Dành tới 45% – 70% chỉ tiêu cho V-ACT):\n• ĐH Bách Khoa TP.HCM, ĐH Khoa học Tự nhiên, ĐH Công nghệ Thông tin (UIT), ĐH Kinh tế – Luật (UEL), ĐH Quốc tế (IU), ĐH Khoa học Xã hội & Nhân văn, ĐH An Giang, Khoa Y (nay là ĐH Khoa học Sức khỏe).\n\n📌 2. Khối trường Kinh tế – Ngân hàng – Luật – Kỹ thuật hàng đầu phía Nam:\n• ĐH Kinh tế TP.HCM (UEH), ĐH Ngoại thương CS2 (FTU2), ĐH Ngân hàng TP.HCM (HUB), ĐH Tài chính – Marketing (UFM), ĐH Luật TP.HCM, ĐH Sư phạm Kỹ thuật TP.HCM, ĐH Sài Gòn, ĐH Công nghiệp TP.HCM, ĐH Công thương TP.HCM, ĐH Nông Lâm, ĐH Cần Thơ...\n\n📌 3. Khối trường Y Dược:\n• ĐH Y Dược TP.HCM, ĐH Y khoa Phạm Ngọc Thạch, ĐH Y Dược Cần Thơ đều có phương thức kết hợp hoặc sử dụng kết quả ĐGNL cho nhiều ngành đào tạo!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
-    "image_path": "./assets/posts/post_26.png",
-    "mutated_image_path": "./assets/posts/post_26_page_b.png",
-    "created_at": "2026-10-14T11:53:04.966Z",
+    "id": 76,
+    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
+    "subhead": "Niềm tự hào của sinh viên năm nhất gửi tiền lương thực hành về cho Mẹ",
+    "quote": "KHOẢNH KHẮC XÚC ĐỘNG NHẤT CỦA SINH VIÊN HỆ VỪA HỌC VỪA LÀM: Tháng lương thực hành đầu tiên 8 triệu đồng tại nhà máy FDI – Không còn phải gọi điện về quê xin tiền bố mẹ!",
+    "caption": "❤️ \"MẸ ƠI, THÁNG NÀY CON KHÔNG XIN TIỀN MẸ NỮA, CON GỬI VỀ BIẾU BỐ MẸ 5 TRIỆU ĐỒNG TIỀN LƯƠNG THỰC HÀNH!\"\n\nĐó là câu chuyện có thật của hàng trăm sinh viên các khóa đầu tiên thuộc Chương trình Học bổng Vừa Học Vừa Làm Hệ Chính Quy sau khi hoàn thành 2 tháng học lý thuyết đầu tiên tại trường và bước vào 3 tháng thực hành tại nhà máy FDI!\n\n🌟 Vì sao các em làm được điều tuyệt vời đó ngay ở tuổi 18 – 19?\n• Tiền học phí (~24 triệu/năm): Đã có 70% Nhà nước hỗ trợ + 30% Doanh nghiệp tài trợ = 0 đồng.\n• Tiền chỗ ở Ký túc xá, tiền xe đưa đón đi làm, 2 bữa ăn chính/ngày: Đã được chương trình và nhà máy đài thọ.\n• Chính vì không tốn chi phí sinh hoạt đắt đỏ, khoản thu nhập thực hành từ 6.000.000 – 12.000.000 VNĐ/tháng tại nhà máy FDI gần như được các em giữ trọn vẹn để tích lũy cho bản thân và gửi về phụ giúp bố mẹ ở quê!\n\nVừa trưởng thành trong môi trường kỷ luật, vừa có Bằng Kỹ sư thực hành chính quy, vừa báo hiếu bố mẹ ngay khi còn trên ghế nhà trường!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
+    "image_path": "./assets/posts/post_76.png",
+    "mutated_image_path": "./assets/posts/post_76_page_b.png",
+    "created_at": "2026-10-14T11:53:37.208Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -3961,15 +3965,15 @@
     "scheduled_slot": 2
   },
   {
-    "id": 76,
-    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
-    "subhead": "Niềm tự hào của sinh viên năm nhất gửi tiền lương thực hành về cho Mẹ",
-    "quote": "KHOẢNH KHẮC XÚC ĐỘNG NHẤT CỦA SINH VIÊN HỆ VỪA HỌC VỪA LÀM: Tháng lương thực hành đầu tiên 8 triệu đồng tại nhà máy FDI – Không còn phải gọi điện về quê xin tiền bố mẹ!",
-    "caption": "❤️ \"MẸ ƠI, THÁNG NÀY CON KHÔNG XIN TIỀN MẸ NỮA, CON GỬI VỀ BIẾU BỐ MẸ 5 TRIỆU ĐỒNG TIỀN LƯƠNG THỰC HÀNH!\"\n\nĐó là câu chuyện có thật của hàng trăm sinh viên các khóa đầu tiên thuộc Chương trình Học bổng Vừa Học Vừa Làm Hệ Chính Quy sau khi hoàn thành 2 tháng học lý thuyết đầu tiên tại trường và bước vào 3 tháng thực hành tại nhà máy FDI!\n\n🌟 Vì sao các em làm được điều tuyệt vời đó ngay ở tuổi 18 – 19?\n• Tiền học phí (~24 triệu/năm): Đã có 70% Nhà nước hỗ trợ + 30% Doanh nghiệp tài trợ = 0 đồng.\n• Tiền chỗ ở Ký túc xá, tiền xe đưa đón đi làm, 2 bữa ăn chính/ngày: Đã được chương trình và nhà máy đài thọ.\n• Chính vì không tốn chi phí sinh hoạt đắt đỏ, khoản thu nhập thực hành từ 6.000.000 – 12.000.000 VNĐ/tháng tại nhà máy FDI gần như được các em giữ trọn vẹn để tích lũy cho bản thân và gửi về phụ giúp bố mẹ ở quê!\n\nVừa trưởng thành trong môi trường kỷ luật, vừa có Bằng Kỹ sư thực hành chính quy, vừa báo hiếu bố mẹ ngay khi còn trên ghế nhà trường!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
-    "image_path": "./assets/posts/post_76.png",
-    "mutated_image_path": "./assets/posts/post_76_page_b.png",
-    "created_at": "2026-10-14T11:53:37.208Z",
+    "id": 26,
+    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
+    "subhead": "Danh sách trường Đại học Top đầu miền Nam xét tuyển V-ACT & V-SAT",
+    "quote": "ĐIỂM THI V-ACT (ĐHQG TP.HCM) & V-SAT MỞ TOANG CÁNH CỬA VÀO HƠN 100 TRƯỜNG ĐẠI HỌC PHÍA NAM: Từ Bách Khoa, Kinh tế, Ngoại thương đến Y Dược, Ngân hàng!",
+    "caption": "🌴 SĨ TỬ PHÍA NAM & MIỀN TRUNG – TÂY NGUYÊN: CẦM ĐIỂM V-ACT VÀ V-SAT SẼ ĐỖ VÀO NHỮNG TRƯỜNG LỚN NÀO?\n\nNếu chỉ chờ điểm thi Tốt nghiệp THPT, bạn chỉ có 1 cơ hội. Nhưng nếu sở hữu điểm V-ACT (ĐHQG TP.HCM) và V-SAT, bạn nắm trong tay cơ hội xét tuyển vào hơn 100 trường Đại học:\n\n📌 1. Hệ thống các trường thành viên ĐHQG TP.HCM (Dành tới 45% – 70% chỉ tiêu cho V-ACT):\n• ĐH Bách Khoa TP.HCM, ĐH Khoa học Tự nhiên, ĐH Công nghệ Thông tin (UIT), ĐH Kinh tế – Luật (UEL), ĐH Quốc tế (IU), ĐH Khoa học Xã hội & Nhân văn, ĐH An Giang, Khoa Y (nay là ĐH Khoa học Sức khỏe).\n\n📌 2. Khối trường Kinh tế – Ngân hàng – Luật – Kỹ thuật hàng đầu phía Nam:\n• ĐH Kinh tế TP.HCM (UEH), ĐH Ngoại thương CS2 (FTU2), ĐH Ngân hàng TP.HCM (HUB), ĐH Tài chính – Marketing (UFM), ĐH Luật TP.HCM, ĐH Sư phạm Kỹ thuật TP.HCM, ĐH Sài Gòn, ĐH Công nghiệp TP.HCM, ĐH Công thương TP.HCM, ĐH Nông Lâm, ĐH Cần Thơ...\n\n📌 3. Khối trường Y Dược:\n• ĐH Y Dược TP.HCM, ĐH Y khoa Phạm Ngọc Thạch, ĐH Y Dược Cần Thơ đều có phương thức kết hợp hoặc sử dụng kết quả ĐGNL cho nhiều ngành đào tạo!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
+    "image_path": "./assets/posts/post_26.png",
+    "mutated_image_path": "./assets/posts/post_26_page_b.png",
+    "created_at": "2026-10-14T11:53:04.966Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -4169,15 +4173,15 @@
     "scheduled_slot": 1
   },
   {
-    "id": 27,
-    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
-    "subhead": "5 Sai lầm khiến học sinh giỏi trên lớp vẫn điểm thấp khi thi HSA, TSA, V-ACT",
-    "quote": "TẠI SAO NHIỀU HỌC SINH ĐIỂM TỔNG KẾT TRÊN LỚP 9.0 NHƯNG KHI THI ĐÁNH GIÁ NĂNG LỰC (HSA, TSA, V-ACT) LẠI CHỈ ĐẠT ĐIỂM TRUNG BÌNH?",
-    "caption": "⚠️ 5 SAI LẦM CHÍ MẠNG KHIẾN HỌC SINH HỌC TỐT TRÊN LỚP VẪN BỊ \"SỐC\" TRƯỚC ĐỀ THI RIÊNG:\n\nĐề thi HSA, TSA, V-ACT được thiết kế để chống học tủ, học vẹt và chống bấm máy tính mẹo. Nếu học sinh mắc 5 thói quen dưới đây, điểm thi riêng sẽ rất thấp:\n\n1️⃣ Quá phụ thuộc vào mẹo bấm máy tính Casio và thử đáp án ngược:\n• Trước các câu hỏi điền đáp án ngắn của HSA, TSA, V-SAT hoặc câu hỏi hỏi về mệnh đề lý thuyết bản chất, mọi mẹo Casio đều trở nên vô dụng.\n2️⃣ Học lệch, bỏ hẳn kiến thức lớp 10 và lớp 11:\n• Trên lớp chỉ học bài nào thi bài đó, quên sạch 30% kiến thức lớp 10–11 khiến mất trắng hàng chục câu hỏi dễ.\n3️⃣ Kỹ năng đọc hiểu văn bản dài yếu:\n• Cả HSA, TSA và V-ACT đều có những bài đọc khoa học/nghị luận dài 600 – 1.000 chữ. Học sinh lười đọc sẽ bị ngợp và hết giờ trước khi kịp hiểu đề.\n4️⃣ Yếu kỹ năng xử lý bảng biểu, đồ thị và số liệu thống kê thực tế.\n5️⃣ Không luyện đề tổng hợp dưới áp lực bấm giờ 150 – 195 phút liên tục trước khi vào phòng thi thật!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
-    "image_path": "./assets/posts/post_27.png",
-    "mutated_image_path": "./assets/posts/post_27_page_b.png",
-    "created_at": "2026-10-14T11:53:05.665Z",
+    "id": 77,
+    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
+    "subhead": "Tổng hợp 10 Đặc quyền Vàng của Học bổng Vừa Học Vừa Làm 70/30",
+    "quote": "TỔNG HỢP 10 ĐẶC QUYỀN VÀNG CỦA HỌC BỔNG VỪA HỌC VỪA LÀM HỆ CHÍNH QUY (70% NHÀ NƯỚC – 30% DOANH NGHIỆP | 70% THỰC HÀNH – 30% LÝ THUYẾT): Tấm hộ chiếu vững chắc nhất vào đời!",
+    "caption": "💎 TÓM TẮT 10 LỢI ÍCH CỐT LÕI DÀNH CHO PHỤ HUYNH & HỌC SINH KHI THAM GIA CHƯƠNG TRÌNH HỌC BỔNG KHUYẾN HỌC & GIÁO DỤC VIỆT:\n\n1️⃣ Cấp Bằng Trung cấp / Cao đẳng Chính quy chuẩn Bộ GD&ĐT và công nhận danh hiệu \"Kỹ sư thực hành\".\n2️⃣ Miễn 100% học phí toàn khóa (70% Nhà nước hỗ trợ theo Nghị định 238/2025/NĐ-CP & Thông tư 05/2023 + 30% Doanh nghiệp tài trợ).\n3️⃣ Hỗ trợ toàn diện sinh hoạt phí: Nhà ở Ký túc xá, tiền ăn 2 bữa chính/ngày và xe đưa đón đi lại (~195 triệu VNĐ/3 năm).\n4️⃣ Chương trình Đào tạo Kép chuẩn Đức: 30% Lý thuyết tại trường Cao đẳng + 70% Thực hành thực tế tại nhà máy FDI.\n5️⃣ Nhận lương thực hành trực tiếp từ 6.000.000 – 12.000.000 VNĐ/tháng trong suốt quá trình thực tập tại doanh nghiệp (~180 triệu VNĐ/3 năm).\n6️⃣ Được ký hợp đồng trực tiếp với nhà máy FDI và hưởng đầy đủ các chế độ Bảo hiểm trong thời gian thực tập.\n7️⃣ Được đào tạo miễn phí Ngoại ngữ (Tiếng Trung / Hàn / Nhật / Anh) và Kỹ năng mềm tại doanh nghiệp.\n8️⃣ Cam kết 100% việc làm ngay sau khi tốt nghiệp đúng chuyên ngành với mức thu nhập 12.000.000 – 15.000.000 VNĐ/tháng (không phải thử việc).\n9️⃣ Hỗ trợ học Liên thông lên Đại học chính quy (1,5 năm) hoặc cử đi học tập nâng cao trình độ ở nước ngoài.\n🔟 Cơ hội đi làm việc Quốc tế (Nhật Bản, Hàn Quốc, Đài Loan, CHLB Đức) diện Kỹ sư / Lao động tay nghề cao với thu nhập 40.000.000 – 100.000.000 VNĐ/tháng!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
+    "image_path": "./assets/posts/post_77.png",
+    "mutated_image_path": "./assets/posts/post_77_page_b.png",
+    "created_at": "2026-10-14T11:53:37.572Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -4195,15 +4199,15 @@
     "scheduled_slot": 2
   },
   {
-    "id": 77,
-    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
-    "subhead": "Tổng hợp 10 Đặc quyền Vàng của Học bổng Vừa Học Vừa Làm 70/30",
-    "quote": "TỔNG HỢP 10 ĐẶC QUYỀN VÀNG CỦA HỌC BỔNG VỪA HỌC VỪA LÀM HỆ CHÍNH QUY (70% NHÀ NƯỚC – 30% DOANH NGHIỆP | 70% THỰC HÀNH – 30% LÝ THUYẾT): Tấm hộ chiếu vững chắc nhất vào đời!",
-    "caption": "💎 TÓM TẮT 10 LỢI ÍCH CỐT LÕI DÀNH CHO PHỤ HUYNH & HỌC SINH KHI THAM GIA CHƯƠNG TRÌNH HỌC BỔNG KHUYẾN HỌC & GIÁO DỤC VIỆT:\n\n1️⃣ Cấp Bằng Trung cấp / Cao đẳng Chính quy chuẩn Bộ GD&ĐT và công nhận danh hiệu \"Kỹ sư thực hành\".\n2️⃣ Miễn 100% học phí toàn khóa (70% Nhà nước hỗ trợ theo Nghị định 238/2025/NĐ-CP & Thông tư 05/2023 + 30% Doanh nghiệp tài trợ).\n3️⃣ Hỗ trợ toàn diện sinh hoạt phí: Nhà ở Ký túc xá, tiền ăn 2 bữa chính/ngày và xe đưa đón đi lại (~195 triệu VNĐ/3 năm).\n4️⃣ Chương trình Đào tạo Kép chuẩn Đức: 30% Lý thuyết tại trường Cao đẳng + 70% Thực hành thực tế tại nhà máy FDI.\n5️⃣ Nhận lương thực hành trực tiếp từ 6.000.000 – 12.000.000 VNĐ/tháng trong suốt quá trình thực tập tại doanh nghiệp (~180 triệu VNĐ/3 năm).\n6️⃣ Được ký hợp đồng trực tiếp với nhà máy FDI và hưởng đầy đủ các chế độ Bảo hiểm trong thời gian thực tập.\n7️⃣ Được đào tạo miễn phí Ngoại ngữ (Tiếng Trung / Hàn / Nhật / Anh) và Kỹ năng mềm tại doanh nghiệp.\n8️⃣ Cam kết 100% việc làm ngay sau khi tốt nghiệp đúng chuyên ngành với mức thu nhập 12.000.000 – 15.000.000 VNĐ/tháng (không phải thử việc).\n9️⃣ Hỗ trợ học Liên thông lên Đại học chính quy (1,5 năm) hoặc cử đi học tập nâng cao trình độ ở nước ngoài.\n🔟 Cơ hội đi làm việc Quốc tế (Nhật Bản, Hàn Quốc, Đài Loan, CHLB Đức) diện Kỹ sư / Lao động tay nghề cao với thu nhập 40.000.000 – 100.000.000 VNĐ/tháng!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
-    "image_path": "./assets/posts/post_77.png",
-    "mutated_image_path": "./assets/posts/post_77_page_b.png",
-    "created_at": "2026-10-14T11:53:37.572Z",
+    "id": 27,
+    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
+    "subhead": "5 Sai lầm khiến học sinh giỏi trên lớp vẫn điểm thấp khi thi HSA, TSA, V-ACT",
+    "quote": "TẠI SAO NHIỀU HỌC SINH ĐIỂM TỔNG KẾT TRÊN LỚP 9.0 NHƯNG KHI THI ĐÁNH GIÁ NĂNG LỰC (HSA, TSA, V-ACT) LẠI CHỈ ĐẠT ĐIỂM TRUNG BÌNH?",
+    "caption": "⚠️ 5 SAI LẦM CHÍ MẠNG KHIẾN HỌC SINH HỌC TỐT TRÊN LỚP VẪN BỊ \"SỐC\" TRƯỚC ĐỀ THI RIÊNG:\n\nĐề thi HSA, TSA, V-ACT được thiết kế để chống học tủ, học vẹt và chống bấm máy tính mẹo. Nếu học sinh mắc 5 thói quen dưới đây, điểm thi riêng sẽ rất thấp:\n\n1️⃣ Quá phụ thuộc vào mẹo bấm máy tính Casio và thử đáp án ngược:\n• Trước các câu hỏi điền đáp án ngắn của HSA, TSA, V-SAT hoặc câu hỏi hỏi về mệnh đề lý thuyết bản chất, mọi mẹo Casio đều trở nên vô dụng.\n2️⃣ Học lệch, bỏ hẳn kiến thức lớp 10 và lớp 11:\n• Trên lớp chỉ học bài nào thi bài đó, quên sạch 30% kiến thức lớp 10–11 khiến mất trắng hàng chục câu hỏi dễ.\n3️⃣ Kỹ năng đọc hiểu văn bản dài yếu:\n• Cả HSA, TSA và V-ACT đều có những bài đọc khoa học/nghị luận dài 600 – 1.000 chữ. Học sinh lười đọc sẽ bị ngợp và hết giờ trước khi kịp hiểu đề.\n4️⃣ Yếu kỹ năng xử lý bảng biểu, đồ thị và số liệu thống kê thực tế.\n5️⃣ Không luyện đề tổng hợp dưới áp lực bấm giờ 150 – 195 phút liên tục trước khi vào phòng thi thật!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
+    "image_path": "./assets/posts/post_27.png",
+    "mutated_image_path": "./assets/posts/post_27_page_b.png",
+    "created_at": "2026-10-14T11:53:05.665Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -4403,15 +4407,15 @@
     "scheduled_slot": 1
   },
   {
-    "id": 28,
-    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
-    "subhead": "Lộ trình 3 giai đoạn ôn thi HSA – TSA – V-ACT hiệu quả nhất",
-    "quote": "LỘ TRÌNH 3 GIAI ĐOẠN ÔN THI ĐÁNH GIÁ NĂNG LỰC (HSA – TSA – V-ACT) KHOA HỌC NHẤT: Vừa đạt điểm cao kỳ thi riêng, vừa bứt phá kỳ thi Tốt nghiệp THPT!",
-    "caption": "🚀 LÀM SAO ĐỂ ÔN THI ĐÁNH GIÁ NĂNG LỰC MÀ KHÔNG BỊ XUNG ĐỘT VỚI VIỆC HỌC TRÊN LỚP VÀ THI TỐT NGHIỆP THPT?\n\nVới chương trình GDPT 2018 mới, đề thi Tốt nghiệp THPT và đề thi HSA, TSA, V-ACT đã có sự giao thoa rất lớn (cùng đánh giá năng lực vận dụng, câu hỏi Đúng/Sai và trả lời ngắn). Hãy áp dụng lộ trình 3 giai đoạn sau:\n\n🌱 GIAI ĐOẠN 1 – NẮM VỮNG BẢN CHẤT (Từ Lớp 11 đến hết Học kỳ 1 Lớp 12):\n• Học sâu bản chất từng chuyên đề Toán, Văn, Anh và các môn Khoa học tự chọn; tuyệt đối không học vẹt công thức.\n• Hệ thống hóa lại các chuyên đề trọng tâm của Lớp 10 và Lớp 11.\n\n🔥 GIAI ĐOẠN 2 – RÈN TƯ DUY ĐỌC HIỂU & XỬ LÝ SỐ LIỆU (Tháng 11 – Tháng 2):\n• Luyện chuyên sâu các dạng câu hỏi đặc thù của kỳ thi riêng: Đọc hiểu văn bản khoa học dài, phân tích bảng biểu thống kê, suy luận thí nghiệm thực nghiệm và câu hỏi điền đáp án.\n\n🏆 GIAI ĐOẠN 3 – THỰC CHIẾN PHÒNG THI ẢO (Tháng 2 – Tháng 4):\n• Luyện từ 15 – 20 đề chuẩn cấu trúc mới dưới áp lực đồng hồ đếm ngược 150 – 195 phút để bước vào đợt thi tháng 3 – tháng 4 với phong độ đỉnh cao nhất!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
-    "image_path": "./assets/posts/post_28.png",
-    "mutated_image_path": "./assets/posts/post_28_page_b.png",
-    "created_at": "2026-10-14T11:53:06.430Z",
+    "id": 78,
+    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
+    "subhead": "Chế độ làm việc, phân ca và bảo vệ sức khỏe tại Nhà máy FDI",
+    "quote": "CHẾ ĐỘ THỰC HÀNH TẠI NHÀ MÁY FDI: Tuân thủ nghiêm ngặt Bộ luật Lao động, hưởng đầy đủ lương thưởng, phụ cấp làm thêm giờ và có Ban quản lý Ký túc xá đồng hành 24/7!",
+    "caption": "🛡️ CON ĐI THỰC HÀNH TẠI DOANH NGHIỆP FDI ĐƯỢC ĐẢM BẢO ĐIỀU KIỆN LÀM VIỆC VÀ SINH HOẠT NHƯ THẾ NÀO?\n\nTrong tài liệu Đào tạo Thực chiến của Chương trình Học bổng Khuyến học & Giáo dục Việt, quyền lợi và quy trình hỗ trợ sinh viên tại doanh nghiệp được thiết lập cực kỳ chặt chẽ:\n\n✅ 1. Tuân thủ Luật Lao động & Hợp đồng:\n• Sinh viên được ký hợp đồng trực tiếp với Nhà máy FDI; mọi chế độ phân ca, làm thêm giờ, lương thưởng (6 – 12 triệu/tháng) và bảo hiểm đều thực hiện đúng quy định pháp luật hiện hành.\n• Trong thời gian làm việc tại nhà máy có làm thêm giờ, sinh viên được hỗ trợ 2 suất ăn chính chất lượng cao ngay tại doanh nghiệp.\n\n✅ 2. Hệ thống hỗ trợ trực tiếp ngay tại chỗ:\n• Tại Ký túc xá luôn có Quản lý KTX túc trực hỗ trợ đời sống, điện nước, an ninh.\n• Tại Nhà máy luôn có Quản lý trực tiếp và bộ phận điều phối của Nhà trường + Công ty Đại Dương theo sát, sẵn sàng can thiệp bảo vệ sinh viên nếu điều kiện lao động hoặc sức khỏe không đảm bảo!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
+    "image_path": "./assets/posts/post_78.png",
+    "mutated_image_path": "./assets/posts/post_78_page_b.png",
+    "created_at": "2026-10-14T11:53:38.124Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -4429,15 +4433,15 @@
     "scheduled_slot": 2
   },
   {
-    "id": 78,
-    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
-    "subhead": "Chế độ làm việc, phân ca và bảo vệ sức khỏe tại Nhà máy FDI",
-    "quote": "CHẾ ĐỘ THỰC HÀNH TẠI NHÀ MÁY FDI: Tuân thủ nghiêm ngặt Bộ luật Lao động, hưởng đầy đủ lương thưởng, phụ cấp làm thêm giờ và có Ban quản lý Ký túc xá đồng hành 24/7!",
-    "caption": "🛡️ CON ĐI THỰC HÀNH TẠI DOANH NGHIỆP FDI ĐƯỢC ĐẢM BẢO ĐIỀU KIỆN LÀM VIỆC VÀ SINH HOẠT NHƯ THẾ NÀO?\n\nTrong tài liệu Đào tạo Thực chiến của Chương trình Học bổng Khuyến học & Giáo dục Việt, quyền lợi và quy trình hỗ trợ sinh viên tại doanh nghiệp được thiết lập cực kỳ chặt chẽ:\n\n✅ 1. Tuân thủ Luật Lao động & Hợp đồng:\n• Sinh viên được ký hợp đồng trực tiếp với Nhà máy FDI; mọi chế độ phân ca, làm thêm giờ, lương thưởng (6 – 12 triệu/tháng) và bảo hiểm đều thực hiện đúng quy định pháp luật hiện hành.\n• Trong thời gian làm việc tại nhà máy có làm thêm giờ, sinh viên được hỗ trợ 2 suất ăn chính chất lượng cao ngay tại doanh nghiệp.\n\n✅ 2. Hệ thống hỗ trợ trực tiếp ngay tại chỗ:\n• Tại Ký túc xá luôn có Quản lý KTX túc trực hỗ trợ đời sống, điện nước, an ninh.\n• Tại Nhà máy luôn có Quản lý trực tiếp và bộ phận điều phối của Nhà trường + Công ty Đại Dương theo sát, sẵn sàng can thiệp bảo vệ sinh viên nếu điều kiện lao động hoặc sức khỏe không đảm bảo!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
-    "image_path": "./assets/posts/post_78.png",
-    "mutated_image_path": "./assets/posts/post_78_page_b.png",
-    "created_at": "2026-10-14T11:53:38.124Z",
+    "id": 28,
+    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
+    "subhead": "Lộ trình 3 giai đoạn ôn thi HSA – TSA – V-ACT hiệu quả nhất",
+    "quote": "LỘ TRÌNH 3 GIAI ĐOẠN ÔN THI ĐÁNH GIÁ NĂNG LỰC (HSA – TSA – V-ACT) KHOA HỌC NHẤT: Vừa đạt điểm cao kỳ thi riêng, vừa bứt phá kỳ thi Tốt nghiệp THPT!",
+    "caption": "🚀 LÀM SAO ĐỂ ÔN THI ĐÁNH GIÁ NĂNG LỰC MÀ KHÔNG BỊ XUNG ĐỘT VỚI VIỆC HỌC TRÊN LỚP VÀ THI TỐT NGHIỆP THPT?\n\nVới chương trình GDPT 2018 mới, đề thi Tốt nghiệp THPT và đề thi HSA, TSA, V-ACT đã có sự giao thoa rất lớn (cùng đánh giá năng lực vận dụng, câu hỏi Đúng/Sai và trả lời ngắn). Hãy áp dụng lộ trình 3 giai đoạn sau:\n\n🌱 GIAI ĐOẠN 1 – NẮM VỮNG BẢN CHẤT (Từ Lớp 11 đến hết Học kỳ 1 Lớp 12):\n• Học sâu bản chất từng chuyên đề Toán, Văn, Anh và các môn Khoa học tự chọn; tuyệt đối không học vẹt công thức.\n• Hệ thống hóa lại các chuyên đề trọng tâm của Lớp 10 và Lớp 11.\n\n🔥 GIAI ĐOẠN 2 – RÈN TƯ DUY ĐỌC HIỂU & XỬ LÝ SỐ LIỆU (Tháng 11 – Tháng 2):\n• Luyện chuyên sâu các dạng câu hỏi đặc thù của kỳ thi riêng: Đọc hiểu văn bản khoa học dài, phân tích bảng biểu thống kê, suy luận thí nghiệm thực nghiệm và câu hỏi điền đáp án.\n\n🏆 GIAI ĐOẠN 3 – THỰC CHIẾN PHÒNG THI ẢO (Tháng 2 – Tháng 4):\n• Luyện từ 15 – 20 đề chuẩn cấu trúc mới dưới áp lực đồng hồ đếm ngược 150 – 195 phút để bước vào đợt thi tháng 3 – tháng 4 với phong độ đỉnh cao nhất!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
+    "image_path": "./assets/posts/post_28.png",
+    "mutated_image_path": "./assets/posts/post_28_page_b.png",
+    "created_at": "2026-10-14T11:53:06.430Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -4637,15 +4641,15 @@
     "scheduled_slot": 1
   },
   {
-    "id": 29,
-    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
-    "subhead": "Vai trò của môn Tiếng Anh trong các kỳ thi riêng V-ACT, V-SAT, HSA, H-SCA",
-    "quote": "VỊ THẾ CỦA NĂNG LỰC TIẾNG ANH TRONG CÁC KỲ THI RIÊNG (V-ACT, V-SAT, HSA, SPT): Khi không còn điểm cộng IELTS, người có năng lực Tiếng Anh thực chất vẫn thắng lớn!",
-    "caption": "🌐 TẠI SAO HỌC SINH CÓ NĂNG LỰC SỬ DỤNG TIẾNG ANH THỰC CHẤT LẠI NẮM LỢI THẾ CỰC LỚN TRONG CÁC KỲ THI RIÊNG?\n\nDù quy chế tuyển sinh mới không còn cộng điểm ưu tiên tràn lan cho chứng chỉ IELTS, nhưng những học sinh học Tiếng Anh & IELTS với tư duy LÀM CHỦ NĂNG LỰC THỰC CHẤT lại đang nắm giữ \"vũ khí tối thượng\" trong các kỳ thi riêng:\n\n✅ 1. Trong kỳ thi V-ACT (ĐHQG TP.HCM):\n• Tiếng Anh là phần thi bắt buộc với 30/120 câu hỏi (chiếm 300/1.200 điểm — tương đương 25% tổng điểm toàn bài thi!). Học sinh giỏi Tiếng Anh dễ dàng lấy trọn 250 – 280+ điểm phần này để bứt tốp.\n\n✅ 2. Trong kỳ thi HSA (ĐHQG Hà Nội):\n• Học sinh xét các ngành Ngôn ngữ, Kinh tế quốc tế được chọn Phần 3 là môn Tiếng Anh (50 câu / 60 phút) để tối đa hóa điểm số.\n\n✅ 3. Trong kỳ thi V-SAT, SPT, H-SCA và Kỳ thi Tốt nghiệp THPT:\n• Tiếng Anh là môn thi độc lập nằm trong các tổ hợp chủ lực D01, A01, D07, D14, D15. Có năng lực Tiếng Anh vững vàng chính là tấm vé vàng giúp con chiến thắng ở mọi phương thức xét tuyển!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
-    "image_path": "./assets/posts/post_29.png",
-    "mutated_image_path": "./assets/posts/post_29_page_b.png",
-    "created_at": "2026-10-14T11:53:06.804Z",
+    "id": 79,
+    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
+    "subhead": "Giải đáp 5 câu hỏi thường gặp nhất của Phụ huynh về Học bổng 70/30",
+    "quote": "GIẢI ĐÁP 5 THẮC MẮC LỚN NHẤT CỦA BỐ MẸ VỀ HỌC BỔNG VỪA HỌC VỪA LÀM (70% NHÀ NƯỚC – 30% DOANH NGHIỆP): Rõ ràng từng con số, minh bạch từng điều khoản!",
+    "caption": "❓ 5 CÂU HỎI BỐ MẸ NÀO CŨNG QUAN TÂM TRƯỚC KHI ĐĂNG KÝ HỌC BỔNG CHO CON:\n\n1️⃣ Hỏi: Bằng tốt nghiệp có ghi chữ \"Vừa học vừa làm\" hay \"Tại chức\" không?\n👉 Đáp: KHÔNG! Đây là hệ đào tạo chính quy theo mô hình nghề kép (30% lý thuyết tại trường – 70% thực hành tại doanh nghiệp). Tốt nghiệp nhận Bằng Cao đẳng Chính quy và công nhận danh hiệu Kỹ sư thực hành.\n\n2️⃣ Hỏi: Học phí 100% được tài trợ từ đâu?\n👉 Đáp: Kết hợp 70% hỗ trợ từ chính sách Nhà nước (Nghị định 238/2025/NĐ-CP & Thông tư 05/2023) và 30% do Doanh nghiệp tài trợ (hoặc Doanh nghiệp tài trợ trọn gói đối với diện mở rộng).\n\n3️⃣ Hỏi: Lương thực hành 6 – 12 triệu/tháng có bị trừ vào học phí không?\n👉 Đáp: KHÔNG! Học phí và Ký túc xá, tiền ăn, đi lại đã nằm trong gói tài trợ ~195 triệu/3 năm. Lương thực hành 6 – 12 triệu/tháng là thu nhập thực tế sinh viên nhận trực tiếp.\n\n4️⃣ Hỏi: Học xong có bắt buộc phải tự đi xin việc không?\n👉 Đáp: Cam kết 100% bố trí việc làm tại doanh nghiệp FDI với thu nhập 12 – 15 triệu/tháng ngay khi tốt nghiệp!\n\n5️⃣ Hỏi: Có học lên Đại học được không?\n👉 Đáp: Hoàn toàn được! Liên thông lên Đại học chính quy chỉ 1,5 năm (sinh viên Khá, Giỏi còn được hỗ trợ kinh phí liên thông).\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
+    "image_path": "./assets/posts/post_79.png",
+    "mutated_image_path": "./assets/posts/post_79_page_b.png",
+    "created_at": "2026-10-14T11:53:38.905Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -4663,15 +4667,15 @@
     "scheduled_slot": 2
   },
   {
-    "id": 79,
-    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
-    "subhead": "Giải đáp 5 câu hỏi thường gặp nhất của Phụ huynh về Học bổng 70/30",
-    "quote": "GIẢI ĐÁP 5 THẮC MẮC LỚN NHẤT CỦA BỐ MẸ VỀ HỌC BỔNG VỪA HỌC VỪA LÀM (70% NHÀ NƯỚC – 30% DOANH NGHIỆP): Rõ ràng từng con số, minh bạch từng điều khoản!",
-    "caption": "❓ 5 CÂU HỎI BỐ MẸ NÀO CŨNG QUAN TÂM TRƯỚC KHI ĐĂNG KÝ HỌC BỔNG CHO CON:\n\n1️⃣ Hỏi: Bằng tốt nghiệp có ghi chữ \"Vừa học vừa làm\" hay \"Tại chức\" không?\n👉 Đáp: KHÔNG! Đây là hệ đào tạo chính quy theo mô hình nghề kép (30% lý thuyết tại trường – 70% thực hành tại doanh nghiệp). Tốt nghiệp nhận Bằng Cao đẳng Chính quy và công nhận danh hiệu Kỹ sư thực hành.\n\n2️⃣ Hỏi: Học phí 100% được tài trợ từ đâu?\n👉 Đáp: Kết hợp 70% hỗ trợ từ chính sách Nhà nước (Nghị định 238/2025/NĐ-CP & Thông tư 05/2023) và 30% do Doanh nghiệp tài trợ (hoặc Doanh nghiệp tài trợ trọn gói đối với diện mở rộng).\n\n3️⃣ Hỏi: Lương thực hành 6 – 12 triệu/tháng có bị trừ vào học phí không?\n👉 Đáp: KHÔNG! Học phí và Ký túc xá, tiền ăn, đi lại đã nằm trong gói tài trợ ~195 triệu/3 năm. Lương thực hành 6 – 12 triệu/tháng là thu nhập thực tế sinh viên nhận trực tiếp.\n\n4️⃣ Hỏi: Học xong có bắt buộc phải tự đi xin việc không?\n👉 Đáp: Cam kết 100% bố trí việc làm tại doanh nghiệp FDI với thu nhập 12 – 15 triệu/tháng ngay khi tốt nghiệp!\n\n5️⃣ Hỏi: Có học lên Đại học được không?\n👉 Đáp: Hoàn toàn được! Liên thông lên Đại học chính quy chỉ 1,5 năm (sinh viên Khá, Giỏi còn được hỗ trợ kinh phí liên thông).\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
-    "image_path": "./assets/posts/post_79.png",
-    "mutated_image_path": "./assets/posts/post_79_page_b.png",
-    "created_at": "2026-10-14T11:53:38.905Z",
+    "id": 29,
+    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
+    "subhead": "Vai trò của môn Tiếng Anh trong các kỳ thi riêng V-ACT, V-SAT, HSA, H-SCA",
+    "quote": "VỊ THẾ CỦA NĂNG LỰC TIẾNG ANH TRONG CÁC KỲ THI RIÊNG (V-ACT, V-SAT, HSA, SPT): Khi không còn điểm cộng IELTS, người có năng lực Tiếng Anh thực chất vẫn thắng lớn!",
+    "caption": "🌐 TẠI SAO HỌC SINH CÓ NĂNG LỰC SỬ DỤNG TIẾNG ANH THỰC CHẤT LẠI NẮM LỢI THẾ CỰC LỚN TRONG CÁC KỲ THI RIÊNG?\n\nDù quy chế tuyển sinh mới không còn cộng điểm ưu tiên tràn lan cho chứng chỉ IELTS, nhưng những học sinh học Tiếng Anh & IELTS với tư duy LÀM CHỦ NĂNG LỰC THỰC CHẤT lại đang nắm giữ \"vũ khí tối thượng\" trong các kỳ thi riêng:\n\n✅ 1. Trong kỳ thi V-ACT (ĐHQG TP.HCM):\n• Tiếng Anh là phần thi bắt buộc với 30/120 câu hỏi (chiếm 300/1.200 điểm — tương đương 25% tổng điểm toàn bài thi!). Học sinh giỏi Tiếng Anh dễ dàng lấy trọn 250 – 280+ điểm phần này để bứt tốp.\n\n✅ 2. Trong kỳ thi HSA (ĐHQG Hà Nội):\n• Học sinh xét các ngành Ngôn ngữ, Kinh tế quốc tế được chọn Phần 3 là môn Tiếng Anh (50 câu / 60 phút) để tối đa hóa điểm số.\n\n✅ 3. Trong kỳ thi V-SAT, SPT, H-SCA và Kỳ thi Tốt nghiệp THPT:\n• Tiếng Anh là môn thi độc lập nằm trong các tổ hợp chủ lực D01, A01, D07, D14, D15. Có năng lực Tiếng Anh vững vàng chính là tấm vé vàng giúp con chiến thắng ở mọi phương thức xét tuyển!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
+    "image_path": "./assets/posts/post_29.png",
+    "mutated_image_path": "./assets/posts/post_29_page_b.png",
+    "created_at": "2026-10-14T11:53:06.804Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -4871,15 +4875,15 @@
     "scheduled_slot": 1
   },
   {
-    "id": 30,
-    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
-    "subhead": "Lời khuyên cho Phụ huynh có con thi HSA, TSA, V-ACT hoặc chọn Học bổng Kép",
-    "quote": "CHIẾN LƯỢC ĐA PHƯƠNG ÁN CHO BỐ MẸ CÓ CON LỚP 12: Vừa chủ động chinh phục các kỳ thi riêng (HSA, TSA, V-ACT), vừa chuẩn bị sẵn phương án Học bổng Vừa Học Vừa Làm 100% học phí!",
-    "caption": "🧭 BỐ MẸ THÔNG THÁI LUÔN CHUẨN BỊ SẴN LỘ TRÌNH PHÙ HỢP VỚI TỪNG MỨC NĂNG LỰC CỦA CON!\n\nMỗi học sinh có một thế mạnh và mức điểm khác nhau. Thay vì tạo áp lực nặng nề bắt con chỉ có một con đường duy nhất, bố mẹ hãy cùng con thiết lập chiến lược thông minh:\n\n📌 Phương án 1 – Nếu con có học lực Khá – Giỏi (Mục tiêu Đại học Top đầu):\n• Hãy cho con ôn luyện bài bản và tham gia sớm 1 – 2 kỳ thi riêng phù hợp nhất (HSA, TSA, V-ACT, V-SAT, SPT) ngay từ đợt tháng 3 – tháng 4, kết hợp rèn luyện năng lực Tiếng Anh thực chất để mở rộng tối đa cánh cửa trúng tuyển Đại học mơ ước.\n\n📌 Phương án 2 – Nếu con có thiên hướng Thực hành hoặc gia đình muốn con Tự chủ tài chính sớm:\n• Đừng cố ép con vào một trường Đại học tốp dưới tốn kém hàng trăm triệu đồng rồi lo thất nghiệp.\n• Hãy đăng ký xét tuyển Chương trình Học bổng Toàn phần Vừa Học Vừa Làm Hệ Chính Quy (70% học phí Nhà nước hỗ trợ + 30% Doanh nghiệp tài trợ; học 30% Lý thuyết tại trường Cao đẳng + 70% Thực hành hưởng lương 6 – 12 triệu/tháng tại nhà máy FDI, cam kết 100% việc làm lương 12 – 15 triệu/tháng và liên thông Đại học 1,5 năm)!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
-    "image_path": "./assets/posts/post_30.png",
-    "mutated_image_path": "./assets/posts/post_30_page_b.png",
-    "created_at": "2026-10-14T11:53:07.370Z",
+    "id": 80,
+    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
+    "subhead": "Sứ mệnh 1.000 Suất Học Bổng Toàn Phần giai đoạn 2026 – 2029",
+    "quote": "HÀNH TRÌNH 1.000 SUẤT HỌC BỔNG TOÀN PHẦN (2026 – 2029): Kiến tạo thế hệ Kỹ sư thực hành Việt Nam vững tay nghề, giỏi ngoại ngữ, làm chủ tương lai từ tuổi 18!",
+    "caption": "🇻🇳 MỘT QUYẾT ĐỊNH ĐÚNG ĐẮN HÔM NAY – THAY ĐỔI TƯƠNG LAI CỦA CẢ MỘT GIA ĐÌNH!\n\nDự án \"1.000 Suất Học Bổng Toàn Phần – Ba Nguồn Lực, Một Tương Lai\" (giai đoạn 2026 – 2029) với tổng giá trị kinh tế tạo ra cho người học lên tới ~375 tỷ VNĐ đang mở rộng cánh cửa đón nhận các em học sinh trên khắp 63 tỉnh, thành phố:\n\n✨ Đừng để con dừng lại giấc mơ học tập vì gia đình thiếu điều kiện kinh tế.\n✨ Đừng để con lãng phí 4 năm thanh xuân trong những giảng đường thiếu thực tế rồi ra trường loay hoay thất nghiệp.\n✨ Hãy để mô hình Đào tạo Nghề Kép chuẩn Đức (30% Lý thuyết tại Trường Cao đẳng chính quy – 70% Thực hành hưởng lương tại Tập đoàn FDI) cùng cơ chế Học bổng Toàn phần (70% Nhà nước hỗ trợ + 30% Doanh nghiệp tài trợ) chắp cánh cho con trở thành một Kỹ sư thực hành bản lĩnh, tự chủ tài chính ngay từ tuổi 18!\n\nSố lượng chỉ tiêu phân bổ theo từng đợt khai giảng hàng tháng có giới hạn (30 – 50 sinh viên/lớp).\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
+    "image_path": "./assets/posts/post_80.png",
+    "mutated_image_path": "./assets/posts/post_80_page_b.png",
+    "created_at": "2026-10-14T11:53:39.367Z",
     "publishing": {
       "page_a": {
         "status": "pending",
@@ -4897,15 +4901,15 @@
     "scheduled_slot": 2
   },
   {
-    "id": 80,
-    "pillar": "HỌC BỔNG VỪA HỌC VỪA LÀM",
-    "subhead": "Sứ mệnh 1.000 Suất Học Bổng Toàn Phần giai đoạn 2026 – 2029",
-    "quote": "HÀNH TRÌNH 1.000 SUẤT HỌC BỔNG TOÀN PHẦN (2026 – 2029): Kiến tạo thế hệ Kỹ sư thực hành Việt Nam vững tay nghề, giỏi ngoại ngữ, làm chủ tương lai từ tuổi 18!",
-    "caption": "🇻🇳 MỘT QUYẾT ĐỊNH ĐÚNG ĐẮN HÔM NAY – THAY ĐỔI TƯƠNG LAI CỦA CẢ MỘT GIA ĐÌNH!\n\nDự án \"1.000 Suất Học Bổng Toàn Phần – Ba Nguồn Lực, Một Tương Lai\" (giai đoạn 2026 – 2029) với tổng giá trị kinh tế tạo ra cho người học lên tới ~375 tỷ VNĐ đang mở rộng cánh cửa đón nhận các em học sinh trên khắp 63 tỉnh, thành phố:\n\n✨ Đừng để con dừng lại giấc mơ học tập vì gia đình thiếu điều kiện kinh tế.\n✨ Đừng để con lãng phí 4 năm thanh xuân trong những giảng đường thiếu thực tế rồi ra trường loay hoay thất nghiệp.\n✨ Hãy để mô hình Đào tạo Nghề Kép chuẩn Đức (30% Lý thuyết tại Trường Cao đẳng chính quy – 70% Thực hành hưởng lương tại Tập đoàn FDI) cùng cơ chế Học bổng Toàn phần (70% Nhà nước hỗ trợ + 30% Doanh nghiệp tài trợ) chắp cánh cho con trở thành một Kỹ sư thực hành bản lĩnh, tự chủ tài chính ngay từ tuổi 18!\n\nSố lượng chỉ tiêu phân bổ theo từng đợt khai giảng hàng tháng có giới hạn (30 – 50 sinh viên/lớp).\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
-    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam",
-    "image_path": "./assets/posts/post_80.png",
-    "mutated_image_path": "./assets/posts/post_80_page_b.png",
-    "created_at": "2026-10-14T11:53:39.367Z",
+    "id": 30,
+    "pillar": "KỲ THI RIÊNG (HSA · TSA · V-ACT)",
+    "subhead": "Lời khuyên cho Phụ huynh có con thi HSA, TSA, V-ACT hoặc chọn Học bổng Kép",
+    "quote": "CHIẾN LƯỢC ĐA PHƯƠNG ÁN CHO BỐ MẸ CÓ CON LỚP 12: Vừa chủ động chinh phục các kỳ thi riêng (HSA, TSA, V-ACT), vừa chuẩn bị sẵn phương án Học bổng Vừa Học Vừa Làm 100% học phí!",
+    "caption": "🧭 BỐ MẸ THÔNG THÁI LUÔN CHUẨN BỊ SẴN LỘ TRÌNH PHÙ HỢP VỚI TỪNG MỨC NĂNG LỰC CỦA CON!\n\nMỗi học sinh có một thế mạnh và mức điểm khác nhau. Thay vì tạo áp lực nặng nề bắt con chỉ có một con đường duy nhất, bố mẹ hãy cùng con thiết lập chiến lược thông minh:\n\n📌 Phương án 1 – Nếu con có học lực Khá – Giỏi (Mục tiêu Đại học Top đầu):\n• Hãy cho con ôn luyện bài bản và tham gia sớm 1 – 2 kỳ thi riêng phù hợp nhất (HSA, TSA, V-ACT, V-SAT, SPT) ngay từ đợt tháng 3 – tháng 4, kết hợp rèn luyện năng lực Tiếng Anh thực chất để mở rộng tối đa cánh cửa trúng tuyển Đại học mơ ước.\n\n📌 Phương án 2 – Nếu con có thiên hướng Thực hành hoặc gia đình muốn con Tự chủ tài chính sớm:\n• Đừng cố ép con vào một trường Đại học tốp dưới tốn kém hàng trăm triệu đồng rồi lo thất nghiệp.\n• Hãy đăng ký xét tuyển Chương trình Học bổng Toàn phần Vừa Học Vừa Làm Hệ Chính Quy (70% học phí Nhà nước hỗ trợ + 30% Doanh nghiệp tài trợ; học 30% Lý thuyết tại trường Cao đẳng + 70% Thực hành hưởng lương 6 – 12 triệu/tháng tại nhà máy FDI, cam kết 100% việc làm lương 12 – 15 triệu/tháng và liên thông Đại học 1,5 năm)!\n\n👉 Bố mẹ hãy comment hoặc để lại tin nhắn để được tư vấn chuyên sâu bố mẹ nhé!",
+    "hashtag": "#OwnYourLifeGlobal #OYL #thamvanhuongnghiep #cungconlapnghiep #OYLG #Hocdelam #HSA #TSA #VACT #VSAT #KyThiRieng",
+    "image_path": "./assets/posts/post_30.png",
+    "mutated_image_path": "./assets/posts/post_30_page_b.png",
+    "created_at": "2026-10-14T11:53:07.370Z",
     "publishing": {
       "page_a": {
         "status": "pending",
