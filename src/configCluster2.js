@@ -23,7 +23,7 @@ const configCluster2 = {
     token: process.env.PAGE_C_TOKEN || '',
     name: process.env.PAGE_C_NAME || 'Học Viện Own Your Life',
     cta: '👉 Thầy cô, phụ huynh và chuyên gia quan tâm đến Nghề Tham Vấn Hướng Nghiệp & Đề án 300 Mentor hãy để lại tin nhắn hoặc comment để nhận tài liệu chuyên sâu nhé!',
-    hashtags: '#OwnYourLifeGlobal #OYL #HocVienOwnYourLife #thamvanhuongnghiep #cungconlapnghiep #CareerCoach #300Mentor'
+    hashtags: '#OwnYourLife #OYL #HocVienOwnYourLife #thamvanhuongnghiep #cungconlapnghiep #CareerCoach #300Mentor'
   },
 
   // FANPAGE D: TRAINER NGUYÊN PHỤNG

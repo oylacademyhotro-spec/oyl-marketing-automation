@@ -195,9 +195,7 @@ export async function triggerVideoCluster2(targetPageKey = 'C', shiftLabel = 'Ca
   const selectedVideo = videoFiles[Math.floor(Math.random() * videoFiles.length)];
   const videoPath = path.join(videoDir, selectedVideo);
 
-  const posts = loadDatabase();
-  const samplePost = posts[Math.floor(Math.random() * posts.length)];
-  const videoCaption = `🎬 【 VIDEO NGẮN ĐỊNH HƯỚNG NGHỀ NGHIỆP 】\n\n${samplePost.quote}\n\n${samplePost.caption}\n\n${pageConfig.cta}\n\n${pageConfig.hashtags}`;
+  const videoCaption = `${samplePost.quote}\n\n${samplePost.caption}\n\n${pageConfig.cta}\n\n${pageConfig.hashtags}`;
 
   try {
     const res = await fbPublisher.publishVideo({
