@@ -42,13 +42,16 @@ const configCluster2 = {
   // LỊCH ĐĂNG: MỖI NGÀY 2 BÀI VIẾT + 2 VIDEO REELS
   cron: {
     // 1. Bài viết Ca Sáng (08:00 Học Viện OYL - 08:45 Trainer Nguyên Phụng)
-    // 2. Bài viết Ca Tối (19:30 Học Viện OYL - 20:15 Trainer Nguyên Phụng)
+    // 2. Bài viết Ca Chiều (14:00 Học Viện OYL - 14:45 Trainer Nguyên Phụng)
+    // 3. Bài viết Ca Tối (19:30 Học Viện OYL - 20:15 Trainer Nguyên Phụng)
     pageCSlots: [
       { time: '08:00', cron: '0 8 * * *', label: 'Ca sáng (Học Viện OYL)' },
+      { time: '14:00', cron: '0 14 * * *', label: 'Ca chiều (Học Viện OYL)' },
       { time: '19:30', cron: '30 19 * * *', label: 'Ca tối (Học Viện OYL)' }
     ],
     pageDSlots: [
       { time: '08:45', cron: '45 8 * * *', label: 'Ca sáng (Trainer Nguyên Phụng - So le)' },
+      { time: '14:45', cron: '45 14 * * *', label: 'Ca chiều (Trainer Nguyên Phụng - So le)' },
       { time: '20:15', cron: '15 20 * * *', label: 'Ca tối (Trainer Nguyên Phụng - So le)' }
     ],
 

@@ -221,10 +221,12 @@ export function startCluster2Scheduler() {
   console.log('='.repeat(70));
   console.log(`🏢 Page C: ${config.pageC.name} [ID: ${config.pageC.id}]`);
   console.log(`🏢 Page D: ${config.pageD.name} [ID: ${config.pageD.id}]`);
-  console.log('\n⏰ LỊCH ĐĂNG (MỖI NGÀY 2 BÀI VIẾT + 2 VIDEO REELS):');
+  console.log('\n⏰ LỊCH ĐĂNG (MỖI NGÀY 3 BÀI VIẾT + 2 VIDEO REELS):');
   console.log('  • 07:00 AM : 🎬 Ca Video Sáng 1 (Học Viện OYL)');
   console.log('  • 08:00 AM : 🌅 Ca Sáng Bài Viết (Học Viện OYL)');
   console.log('  • 08:45 AM : 🌅 Ca Sáng Bài Viết (Trainer Nguyên Phụng - So le)');
+  console.log('  • 14:00 PM : ☀️ Ca Chiều Bài Viết (Học Viện OYL)');
+  console.log('  • 14:45 PM : ☀️ Ca Chiều Bài Viết (Trainer Nguyên Phụng - So le)');
   console.log('  • 18:30 PM : 🎬 Ca Video Tối 2 (Trainer Nguyên Phụng)');
   console.log('  • 19:30 PM : 🌙 Ca Tối Bài Viết (Học Viện OYL)');
   console.log('  • 20:15 PM : 🌙 Ca Tối Bài Viết (Trainer Nguyên Phụng - So le)');
