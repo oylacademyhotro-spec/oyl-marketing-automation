@@ -37,7 +37,7 @@ export const config = {
   fbApiVersion: process.env.FB_API_VERSION || 'v20.0',
   
   // Scheduling & Jitter
-  randomJitterMaxMinutes: parseInt(process.env.RANDOM_JITTER_MAX_MINUTES || '10', 10),
+  randomJitterMaxMinutes: parseInt(process.env.RANDOM_JITTER_MAX_MINUTES || '0', 10),
   dryRun: process.env.DRY_RUN === 'true',
   
   // Daily Cron times

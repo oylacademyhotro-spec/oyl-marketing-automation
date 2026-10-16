@@ -36,7 +36,7 @@ const configCluster2 = {
   },
 
   fbApiVersion: process.env.FB_API_VERSION || 'v20.0',
-  randomJitterMaxMinutes: parseInt(process.env.RANDOM_JITTER_MAX_MINUTES || '10', 10),
+  randomJitterMaxMinutes: parseInt(process.env.RANDOM_JITTER_MAX_MINUTES || '0', 10),
   dryRun: process.env.DRY_RUN === 'true',
 
   // LỊCH ĐĂNG: MỖI NGÀY 2 BÀI VIẾT + 2 VIDEO REELS
